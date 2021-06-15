@@ -2,7 +2,7 @@
 sectionid: contributing-to-site
 layout: page
 title: Contributing to the Website
-permalink: doc/contributing-to-site
+permalink: contributing-to-site
 ---
 
 {::options parse_block_html="true" /}
