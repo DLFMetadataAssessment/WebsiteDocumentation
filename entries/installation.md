@@ -2,7 +2,7 @@
 sectionid: installation-set-up
 layout: page
 title: Installation and Setting Up
-permalink: doc/installation
+permalink: installation
 ---
 
 {::options parse_block_html="true" /}
