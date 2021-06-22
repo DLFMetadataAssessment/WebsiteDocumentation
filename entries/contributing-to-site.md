@@ -188,9 +188,9 @@ Once you have contributed changes, the following workflow will be used to incorp
 
 	- Navigating to the your terminal.
 
-	- Typing and entering ** git add** and the file paths of the fikles that you changed.
+	- Typing and entering **git add** and the file paths of the files that you changed.
 		
-		-**NOTE**: You can either add individual files or add all changed files. To add a certain number files, we recommend using the **Copy as path** method to  for each file. Otherwise, simply type and enter **git add .** to add all changed files.
+		- **NOTE**: You can either add individual files or add all changed files. To add a certain number files, we recommend using the **Copy as path** method to  for each file. Otherwise, simply type and enter **git add .** to add all changed files.
 	
 	- Typing and entering **git commit -m "fixes issue#NUMBER",** where NUMBER is the issue number. This will add an explanatory note to your commit.  
 	
