@@ -2,7 +2,7 @@
 sectionid: before-you-begin
 layout: page
 title: Before You Begin
-permalink: doc/before-you-begin
+permalink: before-you-begin
 ---
 
 {::options parse_block_html="true" /}

@@ -2,7 +2,7 @@
 sectionid: glossary
 layout: page
 title: Glossary
-permalink: doc/glossary
+permalink: glossary
 ---
 
 {::options parse_block_html="true" /}
