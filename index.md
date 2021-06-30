@@ -11,5 +11,6 @@ Here, you can learn more about:
 * [How to install and set up your GitHub Environments](https://gentrysteven.github.io/mawg-doc/installation).
 * [How to directly contribute to the DLF MAWG website](https://gentrysteven.github.io/mawg-doc/contributing-to-site).
 * [How to maintain the website](https://gentrysteven.github.io/mawg-doc/maintenance).
+* [A glossary of useful terms](https://gentrysteven.github.io/mawg-doc/glossary). 
 
 Looking for the main DLF MAWG website? Click [here](http://dlfmetadataassessment.github.io/)
