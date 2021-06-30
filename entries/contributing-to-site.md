@@ -9,9 +9,9 @@ permalink: contributing-to-site
 
 # Introduction
 
-Now that you have installed all necessary dependencies as well as configured your repositories, you are ready to begin contributing changes to the DLF website!
+Now that you have installed all necessary dependencies as well as configured your repositories, you are ready to begin contributing changes to the DLF MAWG website!
 
-To facilitate contributing to the DLF MetadataAssessment repositories, we have provided two similar workflows:
+To facilitate contributing to our website, we have provided two similar workflows:
 
 - The first workflow primarily avoids the command line, and is envisioned as appropriate for those entirely new to Git and GitHub.
 

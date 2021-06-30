@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Contributing to the Website | DLF Metadata Assessment Working Group</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Contributing to the Website" />
+<meta name="author" content="DLF AIG Metadata Working Group" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/contributing-to-site" />
+<meta property="og:url" content="http://localhost:4000/contributing-to-site" />
+<meta property="og:site_name" content="DLF Metadata Assessment Working Group" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Contributing to the Website" />
+<script type="application/ld+json">
+{"@type":"WebPage","headline":"Contributing to the Website","url":"http://localhost:4000/contributing-to-site","author":{"@type":"Person","name":"DLF AIG Metadata Working Group"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css">
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper">
+	  <nav class="site-nav">
+		<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+		<label for="nav-trigger">
+		  <span class="menu-icon">
+			<svg viewBox="0 0 18 15" width="18px" height="15px">
+			  <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+			</svg>
+		  </span>
+		</label>
+		<div>
+			<a href="/"><img class="header-logo" src="/img/dlf-aig.png"/></a>
+		</div>
+		<div class="trigger">
+			<a class="page-link" href="/mawg-doc/before-you-begin">Before You Begin</a>
+			<a class="page-link" href="/mawg-doc/installation">Installation</a>
+			<a class="page-link" href="/mawg-doc/contributing-to-site">Contributing to the Website</a>
+			<a class="page-link" href="/mawg-doc/maintenance">Maintenance</a>
+			<a class="page-link" href="/mawg-doc/glossary">Glossary</a>
+		</div>
+	  </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Contributing to the Website</h1>
+  </header>
+
+  <div class="post-content">
+    
+<h1 id="introduction">Introduction</h1>
+
+<p>Now that you have installed all necessary dependencies as well as configured your repositories, you are ready to begin contributing changes to the DLF website!</p>
+
+<p>To facilitate contributing to the DLF MetadataAssessment repositories, we have provided two similar workflows:</p>
+
+<ul>
+  <li>
+    <p>The first workflow primarily avoids the command line, and is envisioned as appropriate for those entirely new to Git and GitHub.</p>
+  </li>
+  <li>
+    <p>The second workflow employs more of the command line. <strong>We recommend using the second workflow once you become more familiar with Git, GitHub, and the GitHub workflow.</strong></p>
+  </li>
+</ul>
+
+<h1 id="high-level-workflow">High Level Workflow</h1>
+
+<p>Regardless of which workflow you use, the general workflow for contributing changes is as follows:</p>
+
+<ol>
+  <li>Navigate to the appropriate original repository and review the issue you want to change.</li>
+  <li>Update your fork.</li>
+  <li>Update your local repository.</li>
+  <li>Use a text editor to effect changes.</li>
+  <li>Testing that the issue has been resolved.</li>
+  <li>Create a new branch.</li>
+  <li>Push the changed content into that new branch.</li>
+  <li>Create a pull request to merge the proposed changes into the original repository.</li>
+  <li>Assign reviewers.</li>
+</ol>
+
+<p>Once you have contributed changes, the following workflow will be used to incorporate those changes into the original repository:</p>
+
+<ol>
+  <li>Review the change.</li>
+  <li>Merging the pull request and deleting the branch.</li>
+</ol>
+
+<h1 id="instructions-for-contributing-changes-minimal-command-line">Instructions for Contributing Changes (Minimal Command Line)</h1>
+
+<ol>
+  <li>
+    <p>Navigate to the appropriate original repository (e.g. the Sandbox) and review the issue you want to resolve.</p>
+
+    <ul>
+      <li>
+        <p><strong>Note</strong>: If you are not assigned to this issue, select <strong>assign yourself</strong> under <strong>Assignees</strong>.</p>
+      </li>
+      <li>
+        <p><strong>Note</strong>: Review this video from Kate Flynn (from the time the video starts until 4:51) to learn more about how to review an issue: https://youtu.be/3fqsS2_ahXM?t=114</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Ensure your fork is in sync with the original repository by:</p>
+
+    <ul>
+      <li>
+        <p>Navigating to your fork.</p>
+      </li>
+      <li>
+        <p>Selecting the default branch (i.e. <strong>main</strong>).</p>
+      </li>
+      <li>
+        <p>Selecting <strong>Fetch Upstream</strong>.</p>
+      </li>
+      <li>
+        <p>(Optionally) Select <strong>Compare</strong> and review.</p>
+      </li>
+      <li>
+        <p>Selecting <strong>Fetch and Merge</strong>.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Ensure your local repository is in sync with your fork by:</p>
+
+    <ul>
+      <li>
+        <p>Opening a terminal.</p>
+      </li>
+      <li>
+        <p>Navigating to folder on your computer containing your local repository, and further navigate into the folder containing the <strong>README file.</strong></p>
+      </li>
+      <li>
+        <p>Ensuring you are on the default branch by typing the following into the terminal: <strong>git checkout DEFAULT BRANCH NAME</strong>.</p>
+
+        <ul>
+          <li>The DLF MAWG’s default branch name is <strong>main</strong>.</li>
+        </ul>
+      </li>
+      <li>
+        <p>Typing and entiering <strong>gill pull origin DEFAULT BRANCH NAME</strong>.</p>
+      </li>
+      <li>
+        <p>If you encounter a message like <strong>Your branch is up to date with ‘origin/DEFAULT BRANCH NAME’</strong> then proceed to the next step.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Using a text editor of your choice, and using the notes and information in the issue, <strong>fix the issue in your local repository.</strong></p>
+  </li>
+  <li>
+    <p>Testing that the issue has been resolved. <strong>For repositories that use Jekyll</strong>, this will involve:</p>
+
+    <ul>
+      <li>
+        <p>Navigating to your terminal, which should still be opened to local repository.</p>
+      </li>
+      <li>
+        <p>Running <strong>bundle exec jekyll serve</strong> to start Jekyll.</p>
+      </li>
+      <li>
+        <p>Navigating to the provided <strong>Server Address</strong> (e.g. http://127.0.0.1:4000) and reviewing the change.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Once you’re ready so implement the change, select or create the branch that will house that change:</p>
+
+    <ul>
+      <li>
+        <p>Navigate to your <strong>fork</strong>.</p>
+      </li>
+      <li>
+        <p>Select the branch drop-down menu and type the name of your branch into the search bar:</p>
+
+        <ul>
+          <li>
+            <p>If you have already created a branch for this change, type that branch name into the search bar and select it.</p>
+          </li>
+          <li>
+            <p>If you need to create a new branch, type the name of the branch into the search bar and select the <strong>create branch</strong> option.</p>
+
+            <ul>
+              <li><strong>NOTE</strong>: Our branch naming convention is <strong>issue#</strong> followed by a four character number that represents the issue number. So, for a branch that resolves issue 189, the branch name would be issue#0189.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Update the branch by:</p>
+
+    <ul>
+      <li>
+        <p>Navigating to the <strong>appropriate directory</strong> in the fork. For example, if you changed a file that was in the <strong>entries</strong> sub-folder, make sure you select that sub-folder before proceeding to the next step.</p>
+      </li>
+      <li>
+        <p>Selecting <strong>Add file</strong> and then <strong>Upload files.</strong></p>
+      </li>
+      <li>
+        <p>Dragging and dropping the changed file(s) from your local repository to the <strong>Drag additional files here…</strong> bar.</p>
+      </li>
+      <li>
+        <p>Scrolling to the bottom of the page, adding a title to your change (such as <strong>Fixes issue#0189</strong>) and any relevant descriptive information (such as <strong>This also resolves a similar typographical issue in the breadcrumb</strong>).</p>
+      </li>
+      <li>
+        <p>Selecting <strong>Commit directly to the BRANCH NAME branch</strong>.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Create a pull request to merge the content on the branch in your fork with the original repository:</p>
+
+    <ul>
+      <li>
+        <p>Navigate to the main page of your fork.</p>
+      </li>
+      <li>
+        <p>Select the <strong>Compare &amp; Pull Request</strong> button for the branch you just made.</p>
+      </li>
+      <li>
+        <p>If not already selected, click <strong>Compare across forks</strong>.</p>
+      </li>
+      <li>
+        <p>Make sure that:</p>
+
+        <ul>
+          <li>
+            <p>The <strong>Base repository</strong> is the original repository (e.g. DLFMetadataAssessment/Sandbox).</p>
+          </li>
+          <li>
+            <p>The <strong>base</strong> branch is the default branch (e.g. <strong>main</strong>).</p>
+          </li>
+          <li>
+            <p>The <strong>Head Repository</strong> is your fork.</p>
+          </li>
+          <li>
+            <p>The <strong>compare</strong> branch is the branch on your repository is the branch on your fork with the changed files.</p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p>Review the title and description of the change and select <strong>Create Pull Request</strong></p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Because no one is supposed to merge their own pull request into the original repository, complete this workflow by assigning a reviewer:</p>
+
+    <ul>
+      <li>
+        <p>Selecting <strong>Reviewers</strong>.</p>
+      </li>
+      <li>
+        <p>Clicking on the search bar and selecting the name of the member you want to review this change.</p>
+      </li>
+    </ul>
+  </li>
+</ol>
+
+<h1 id="instructions-for-contributing-changes-more-command-line">Instructions for Contributing Changes (More Command Line)</h1>
+
+<ol>
+  <li>
+    <p>Navigate to the appropriate original repository (e.g. the Sandbox) and review the issue you want to resolve.</p>
+
+    <ul>
+      <li>
+        <p><strong>Note</strong>: If you are not assigned to this issue, select <strong>assign yourself</strong> under <strong>Assignees</strong>.</p>
+      </li>
+      <li>
+        <p><strong>Note</strong>: Review this video from Kate Flynn (from the time the video starts until 4:51) to learn more about how to review an issue: https://youtu.be/3fqsS2_ahXM?t=114</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Ensure your fork is in sync with the original repository by:</p>
+
+    <ul>
+      <li>
+        <p>Navigating to your fork.</p>
+      </li>
+      <li>
+        <p>Selecting the default branch (i.e. <strong>main</strong>).</p>
+      </li>
+      <li>
+        <p>Selecting <strong>Fetch Upstream</strong>.</p>
+      </li>
+      <li>
+        <p>(Optionally) Select <strong>Compare</strong> and review.</p>
+      </li>
+      <li>
+        <p>Selecting <strong>Fetch and Merge</strong>.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Ensure your local repository is in sync with your fork by:</p>
+
+    <ul>
+      <li>
+        <p>Opening a terminal.</p>
+      </li>
+      <li>
+        <p>Navigating to folder on your computer containing your local repository, and further navigate into the folder containing the <strong>README file.</strong></p>
+      </li>
+      <li>
+        <p>Ensuring you are on the default branch by typing and entering the following into the terminal: <strong>git checkout DEFAULT BRANCH NAME</strong>.</p>
+
+        <ul>
+          <li>The DLF MAWG’s default branch name is <strong>main</strong>.</li>
+        </ul>
+      </li>
+      <li>
+        <p>Typing and entiering <strong>gill pull origin DEFAULT BRANCH NAME</strong>.</p>
+      </li>
+      <li>
+        <p>If you encounter a message like <strong>Your branch is up to date with ‘origin/DEFAULT BRANCH NAME’</strong> then proceed to the next step.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Using a text editor of your choice, and using the notes and information in the issue, <strong>fix the issue in your local repository.</strong></p>
+  </li>
+  <li>
+    <p>Testing that the issue has been resolved. <strong>For repositories that use Jekyll</strong>, this will involve:</p>
+
+    <ul>
+      <li>
+        <p>Navigating to your terminal, which should still be opened to local repository.</p>
+      </li>
+      <li>
+        <p>Typing and entering <strong>bundle exec jekyll serve</strong> to start Jekyll.</p>
+      </li>
+      <li>
+        <p>Navigating to the provided <strong>Server Address</strong> (e.g. http://127.0.0.1:4000) and reviewing the change.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Once you’re ready so implement the change:</p>
+
+    <ul>
+      <li>
+        <p>Navigating to the your terminal.</p>
+      </li>
+      <li>
+        <p>Terminate the server by typing and entering <strong>y</strong> until it closes.</p>
+      </li>
+      <li>
+        <p>Typing <strong>git checkout -b BRANCHNAME</strong> to create a new local branch in your repository and switch to that branch.</p>
+
+        <ul>
+          <li><strong>NOTE</strong>: Our branch naming convention is <strong>issue#</strong> followed by a four character number that represents the issue number. So, for a branch that resolves issue 189, the branch name would be issue#0189.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Update the branch by:</p>
+
+    <ul>
+      <li>
+        <p>Navigating to the your terminal.</p>
+      </li>
+      <li>
+        <p>Typing and entering <strong>git add</strong> and the file paths of the files that you changed.</p>
+
+        <ul>
+          <li><strong>NOTE</strong>: You can either add individual files or add all changed files. To add a certain number files, we recommend using the <strong>Copy as path</strong> method to  for each file. Otherwise, simply type and enter <strong>git add .</strong> to add all changed files.</li>
+        </ul>
+      </li>
+      <li>
+        <p>Typing and entering <strong>git commit -m “fixes issue#NUMBER”,</strong> where NUMBER is the issue number. This will add an explanatory note to your commit.</p>
+      </li>
+      <li>
+        <p>Typing and entering <strong>git push –set-upstream origin issue#NUMBER</strong> (use the same branch name as in the previous step). This branch from your local repository should now be on your fork.</p>
+      </li>
+      <li>
+        <p>Finally, type and enter <strong>git checkout DEFAULT BRANCH NAME</strong> to return to the default branch.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Create a pull request to merge the content on the branch in your fork with the original repository:</p>
+
+    <ul>
+      <li>
+        <p>Navigate to the main page of your fork.</p>
+      </li>
+      <li>
+        <p>Select the <strong>Compare &amp; Pull Request</strong> button for the branch you just made.</p>
+      </li>
+      <li>
+        <p>If not already selected, click <strong>Compare across forks</strong>.</p>
+      </li>
+      <li>
+        <p>Make sure that:</p>
+
+        <ul>
+          <li>
+            <p>The <strong>Base repository</strong> is the original repository (e.g. DLFMetadataAssessment/Sandbox).</p>
+          </li>
+          <li>
+            <p>The <strong>base</strong> branch is the default branch (e.g. <strong>main</strong>).</p>
+          </li>
+          <li>
+            <p>The <strong>Head Repository</strong> is your fork.</p>
+          </li>
+          <li>
+            <p>The <strong>compare</strong> branch is the branch on your repository is the branch on your fork with the changed files.</p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p>Review the title and description of the change–and add any additional description you feel is necessary–and select <strong>Create Pull Request</strong></p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Because no one is supposed to merge their own pull request into the original repository, complete this workflow by assigning a reviewer:</p>
+
+    <ul>
+      <li>
+        <p>Selecting <strong>Reviewers</strong>.</p>
+      </li>
+      <li>
+        <p>Clicking on the search bar and selecting the name of the member you want to review this change.</p>
+      </li>
+    </ul>
+  </li>
+</ol>
+
+<h1 id="reviewing-and-approving-changes">Reviewing and Approving Changes</h1>
+
+<ol>
+  <li>
+    <p>Once you have been assigned to a change, review the change by:</p>
+
+    <ul>
+      <li>
+        <p>Reviewing the title and description of the pull request and comparing it to the original issue, to ensure the actual issue was nominally addressed.</p>
+      </li>
+      <li>
+        <p>Reviewing the <strong>Files Changed</strong> tab to confirm that the change was actually implemented.</p>
+      </li>
+      <li>
+        <p>Checking to ensure there are no branch conflicts.</p>
+
+        <ul>
+          <li><strong>Note</strong>: If there are branch conflicts, please reach out the DLF MAWG group members listed in the <a href="maintenance">Maintenance</a> page to resolve this issue.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Once you are satisfied this change is sufficient, merge the branch into the original repository by:</p>
+
+    <ul>
+      <li>
+        <p>Clicking the <strong>Merge Pull Request</strong> drop-down arrow and ensuring that <strong>Create a Merge Commit</strong> is selected.</p>
+      </li>
+      <li>
+        <p>Selecting <strong>Merge pull request</strong>.</p>
+      </li>
+      <li>
+        <p>Deleting the merged branch.</p>
+      </li>
+    </ul>
+  </li>
+</ol>
+
+  </div>
+
+</article>
+
+      </div>
+    </main>
+
+
+
+  </body>
+
+</html>

@@ -4,11 +4,12 @@ title: Home
 ---
 
 {::options parse_block_html="true" /}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
+Welcome to the Digital Library Federation Assessment Interest Group Metadata Working Group's (DLF MAWG) website on maintaining its website documentation.
+ 
 Here, you can learn more about:
-* [This website](/About).
-* [How to directly contribute to the DLF MAWG website](/Projects).
-* [Long term workflows](/Take-Part).
+* [What you need to know before you begin](https://gentrysteven.github.io/mawg-doc/before-you-begin).
+* [How to install and set up your GitHub Environments](https://gentrysteven.github.io/mawg-doc/installation).
+* [How to directly contribute to the DLF MAWG website](https://gentrysteven.github.io/mawg-doc/contributing-to-site).
+* [How to maintain the website](https://gentrysteven.github.io/mawg-doc/maintenance).
 
-Looking for the main DLF MAWG website? Click [here](add link)
+Looking for the main DLF MAWG website? Click [here](http://dlfmetadataassessment.github.io/)

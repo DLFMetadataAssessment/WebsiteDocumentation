@@ -9,7 +9,7 @@ permalink: before-you-begin
 
 # Introduction
 
-Before you begin contributing changes to the DLF MAWG website, we recommend becoming somewhat familiar with command line interfaces, Git, GitHub, Github Pages, and Jekyll.
+Before you begin contributing changes to the DLF MAWG website and other repositories, we recommend becoming somewhat familiar with command line interfaces, Git, GitHub, Github Pages, and Jekyll.
 
 In particular, reviewing and more fully understanding [the GitHub flow](https://guides.github.com/introduction/flow/) and jargon--including the various kinds of repositories, pull requests, pushing changes, etc.--will go a long way to ensuring your experience with Git and GitHub is an altogether pleasurable one. 
 
