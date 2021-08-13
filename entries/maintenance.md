@@ -11,6 +11,10 @@ permalink: maintenance
 
 --Stale branches
 
+-Branch renaming
+
+-Creating collections 
+
 --annual review and update
 
 -Who to contact

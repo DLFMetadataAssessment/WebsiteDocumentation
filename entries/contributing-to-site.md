@@ -7,6 +7,14 @@ permalink: contributing-to-site
 
 {::options parse_block_html="true" /}
 
+# Page Sections
+
+[Introduction](#Introduction)
+[High Level Workflow](#High Level Workflow)
+[Instructions for Contributing Changes (Minimal Command Line)](#Instructions for Contributing Changes (Minimal Command Line))
+[Instructions for Contributing Changes (More Command Line)](#Instructions for Contributing Changes (More Command Line)) 
+[Reviewing and Approving Changes](#Reviewing and Approving Changes)
+
 # Introduction
 
 Now that you have installed all necessary dependencies as well as configured your repositories, you are ready to begin contributing changes to the DLF MAWG website!
@@ -133,7 +141,7 @@ Once you have contributed changes, the following workflow will be used to incorp
 	
 	- Clicking on the search bar and selecting the name of the member you want to review this change.
 	
-# Instructions for Contributing Changes (More Command Line) 
+# Instructions for Contributing Changes (More Command Line)
 
 1. Navigate to the appropriate original repository (e.g. the Sandbox) and review the issue you want to resolve.
 

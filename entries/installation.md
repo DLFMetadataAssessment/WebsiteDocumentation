@@ -10,6 +10,13 @@ permalink: installation
 # Page Sections
 
 [Introduction](#Introduction)
+[Installation Overview](#Installation Overview)
+[Installation Instructions (macOS)](#Installation Instructions (macOS))
+[Installation Instructions (Windows)](#Installation Instructions (Windows))
+[Set Up Overview](#Set Up Overview)
+[GitHub Repositories](#GitHub Repositories)
+[Joining the DLFMetadataAssessment GitHub Organization (Optional)](#Joining the DLFMetadataAssessment GitHub Organization (Optional))
+[Next Steps](#Next Steps )
 
 # Introduction
 
