@@ -8,7 +8,7 @@ Welcome to the Digital Library Federation Assessment Interest Group Metadata Wor
  
 Here, you can learn more about:
 * [What you need to know before you begin](https://gentrysteven.github.io/mawg-doc/before-you-begin).
-* [How to install and set up your GitHub Environments](https://gentrysteven.github.io/mawg-doc/installation).
+* [How to install and set up your GitHub environments](https://gentrysteven.github.io/mawg-doc/installation).
 * [How to directly contribute to the DLF MAWG website](https://gentrysteven.github.io/mawg-doc/contributing-to-site).
 * [How to maintain the website](https://gentrysteven.github.io/mawg-doc/maintenance).
 * [A glossary of useful terms](https://gentrysteven.github.io/mawg-doc/glossary). 

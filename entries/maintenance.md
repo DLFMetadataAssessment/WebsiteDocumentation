@@ -12,3 +12,6 @@ permalink: maintenance
 --Stale branches
 
 --annual review and update
+
+-Who to contact
+--Table of people and contact info?

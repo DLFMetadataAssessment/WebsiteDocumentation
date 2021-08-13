@@ -33,13 +33,13 @@ In addition to these resources, you may find the following resources useful:
 
 - [**GitHub Documentation**](https://docs.github.com/en): GitHub's official documentation, which was used to create this website.
 
-As you begin to experiment with Git, GitHub, and Jekyll, remember two important things:
+As you begin to experiment with Git, GitHub, and Jekyll, remember that important things:
 
 - Changes in GitHub are very easily reversed - so please experiment!
 
 - If you have any questions, comments, or concerns, please reach out the DLF MAWG group members listed in the [Maintenance](maintenance) page. They will be happy to answer your questions and help you out!
 
--Finally, this documentation is intended to be used to update the DLF MAWG's [Sandbox](https://github.com/DLFMetadataAssessment/Sandbox) and [Production](https://github.com/DLFMetadataAssessment/DLFMetadataAssessment.github.io) websites. However, its core components and workflow can be adapted for any GitHub project.
+Finally, this documentation is intended to be used to update the DLF MAWG's [Sandbox](https://github.com/DLFMetadataAssessment/Sandbox) and [Production](https://github.com/DLFMetadataAssessment/DLFMetadataAssessment.github.io) websites. However, its core components and workflow can be adapted for any GitHub project.
 
 # Next Steps 
 

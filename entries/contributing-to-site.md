@@ -42,7 +42,7 @@ Once you have contributed changes, the following workflow will be used to incorp
 
 	- **Note**: If you are not assigned to this issue, select **assign yourself** under **Assignees**.
 	
-	- **Note**: Review this video from Kate Flynn (from the time the video starts until 4:51) to learn more about how to review an issue: https://youtu.be/3fqsS2_ahXM?t=114
+	- **Note**: Review this video from Kate Flynn (from the time the video starts until 4:51) to learn more about how to review an issue: [https://youtu.be/3fqsS2_ahXM?t=114](https://youtu.be/3fqsS2_ahXM?t=114).
 
 2. Ensure your fork is in sync with the original repository by:
 
@@ -64,7 +64,9 @@ Once you have contributed changes, the following workflow will be used to incorp
 
 	- Ensuring you are on the default branch by typing the following into the terminal: **git checkout DEFAULT BRANCH NAME**. 
 		
+		
 		- The DLF MAWG's default branch name is **main**.
+		
 		
 	- Typing and entiering **gill pull origin DEFAULT BRANCH NAME**.
 		
@@ -91,6 +93,7 @@ Once you have contributed changes, the following workflow will be used to incorp
 		- If you need to create a new branch, type the name of the branch into the search bar and select the **create branch** option.
 			
 			- **NOTE**: Our branch naming convention is **issue#** followed by a four character number that represents the issue number. So, for a branch that resolves issue 189, the branch name would be issue#0189. 
+		
 		
 7. Update the branch by:
 

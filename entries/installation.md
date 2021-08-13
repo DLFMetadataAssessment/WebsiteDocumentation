@@ -119,7 +119,7 @@ Finally, [configure your repository](https://docs.github.com/en/github/collabora
 
 6. Type **git remote -v** into the terminal. If you see any **upstream** repositories.
 
-#Joining the DLFMetadataAssessment GitHub Organization (Optional)
+# Joining the DLFMetadataAssessment GitHub Organization (Optional)
 
 Lastly, consider becoming a contributor to the [DLFMetadataAssessment GitHub organization](https://github.com/DLFMetadataAssessment). 
 
@@ -131,6 +131,6 @@ To join the organization, please reach out the DLF MAWG group members listed in 
 
 Proceed to the [Contributing to the Website](contributing-to-site) and begin making changes!
 
-#References
+# References
 
 [The difference between forking and cloning a repository](https://github.community/t/the-difference-between-forking-and-cloning-a-repository/10189).
