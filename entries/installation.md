@@ -7,6 +7,10 @@ permalink: installation
 
 {::options parse_block_html="true" /}
 
+# Page Sections
+
+[Introduction](#Introduction)
+
 # Introduction
 
 Once you have a basic understanding of Git and GitHub, you will next need to:
