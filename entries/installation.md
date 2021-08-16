@@ -9,16 +9,19 @@ permalink: installation
 
 # Page Sections
 
-[Introduction](#Introduction)
-[Installation Overview](#Installation Overview)
-[Installation Instructions (macOS)](#Installation Instructions (macOS))
-[Installation Instructions (Windows)](#Installation Instructions (Windows))
-[Set Up Overview](#Set Up Overview)
-[GitHub Repositories](#GitHub Repositories)
-[Joining the DLFMetadataAssessment GitHub Organization (Optional)](#Joining the DLFMetadataAssessment GitHub Organization (Optional))
-[Next Steps](#Next Steps )
+<ul>
 
-# Introduction
+	<li><a href="#intro">Introduction</a></li>
+	<li><a href="#installover">Installation Overview</a></li>
+	<li><a href="#installovermac">Installation Instructions (macOS)</a></li>
+	<li><a href="#installoverwin">Installation Instructions (Windows)</a></li>
+	<li><a href="#setupover">Setup Overview</a></li>
+	<li><a href="#githubrepos">GitHub Repositories</a></li>
+	<li><a href="#joindlf">Joining the DLFMetadataAssessment GitHub Organization (Optional)</a></li>
+	<li><a href="#nextsteps">Next Steps</a></li>
+</ul>
+
+<h2 id="intro">Introduction</h2>
 
 Once you have a basic understanding of Git and GitHub, you will next need to:
 
@@ -30,7 +33,7 @@ Once you have a basic understanding of Git and GitHub, you will next need to:
 
 We will begin with installation instructions, which have been provided for users with either Windows and macOS operating systems.
 
-# Installation Overview
+<h2 id="installover">Installation Overview</h2>
 
 Regardless of the operating system that your computer uses, you will need to install the following:
 
@@ -44,7 +47,7 @@ Regardless of the operating system that your computer uses, you will need to ins
 
 Additionally, you will need to create a GitHub account if you have not already done so. 
 
-# Installation Instructions (macOS)
+<h2 id="installovermac">Installation Instructions (macOS)</h2>
 
 **macOS users can select several different options to install necessary software. Very general installation instructions are provided below**:
 
@@ -60,7 +63,7 @@ Additionally, you will need to create a GitHub account if you have not already d
 
 6. [Create a GitHub account](https://github.com/join) if you have not already done so. 
 
-# Installation Instructions (Windows)
+<h2 id="installoverwin">Installation Instructions (Windows)</h2>
 
 **Although not officially supported on Windows computers, Jekyll can still be run on those machines.**
 
@@ -78,11 +81,11 @@ Additionally, you will need to create a GitHub account if you have not already d
 
 7. [Create a GitHub account](https://github.com/join) if you have not already done so. 
 
-# Set Up Overview
+<h2 id="setupover">Set Up Overview</h2>
 
 Now that you have installed the necessary dependencies, it is time to set up the appropriate environments and become a contributor to the DLFMetadataAssessment GitHub organization!
 
-# GitHub Repositories
+<h2 id="githubrepos">GitHub Repositories</h2>
 
 When you're contributing changes to a repository like [DLFMetadataAssessment.github.io](https://github.com/DLFMetadataAssessment/DLFMetadataAssessment.github.io), you are actually interacting with several similar, but distinct, repositories:
 
@@ -130,7 +133,7 @@ Finally, [configure your repository](https://docs.github.com/en/github/collabora
 
 6. Type **git remote -v** into the terminal. If you see any **upstream** repositories.
 
-# Joining the DLFMetadataAssessment GitHub Organization (Optional)
+<h2 id="joindlf">Joining the DLFMetadataAssessment GitHub Organization (Optional)</h2>
 
 Lastly, consider becoming a contributor to the [DLFMetadataAssessment GitHub organization](https://github.com/DLFMetadataAssessment). 
 
@@ -138,7 +141,7 @@ Joining an organization is not a requirement to contribute changes, but we recom
 
 To join the organization, please reach out the DLF MAWG group members listed in the [Maintenance](maintenance) page.
 
-# Next Steps 
+<h2 id="nextsteps">Next Steps</h2> 
 
 Proceed to the [Contributing to the Website](contributing-to-site) and begin making changes!
 

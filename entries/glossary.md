@@ -21,6 +21,8 @@ If you would like to suggest a term be added to this glossary, please contribute
 
 **Git**: "Git is an open source version control software. Think of it as a way to manage multiple people working on the same project; Git allows them to smartly “merge” changes to avoid conflicts. It also keeps a history of the project, so that you can roll back to a time before an error was introduced" ([ Library Code Year’s GitHub Tutorial](https://github.com/LibraryCodeYearIG/Codeyear-IG-Github-Project/blob/master/Getting%20Started/readme.mdown#what-is-git-what-is-github)).
 
+**Git Pull**: Term definition.
+
 **GitHub**: "GitHub is a cloud-based storage site for git. It is a central place where everyone can download projects, track ongoing issues, and view information. It’s not the only such site" [ Library Code Year’s GitHub Tutorial](https://github.com/LibraryCodeYearIG/Codeyear-IG-Github-Project/blob/master/Getting%20Started/readme.mdown#what-is-git-what-is-github)).
 
 **GitHub Pages**: "GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website" ([About GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)).
@@ -29,7 +31,7 @@ If you would like to suggest a term be added to this glossary, please contribute
 
 **Jekyll**: "Jekyll is a static site generator. It takes text written in your favorite markup language and uses layouts to create a static website" ([Quickstart](https://jekyllrb.com/docs/)).
 
-**Pull (GitHub)**: Term definition.
+
 
 **Push (GitHub)**: Term definition.
 

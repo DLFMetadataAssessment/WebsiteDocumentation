@@ -9,11 +9,11 @@ permalink: contributing-to-site
 
 # Page Sections
 
-[Introduction](#Introduction)
-[High Level Workflow](#High Level Workflow)
-[Instructions for Contributing Changes (Minimal Command Line)](#Instructions for Contributing Changes (Minimal Command Line))
-[Instructions for Contributing Changes (More Command Line)](#Instructions for Contributing Changes (More Command Line)) 
-[Reviewing and Approving Changes](#Reviewing and Approving Changes)
+- [Introduction](#Introduction)
+- [High Level Workflow](#High Level Workflow)
+- [Instructions for Contributing Changes (Minimal Command Line)](#Instructions for Contributing Changes (Minimal Command Line))
+- [Instructions for Contributing Changes (More Command Line)](#Instructions for Contributing Changes (More Command Line)) 
+- [Reviewing and Approving Changes](#Reviewing and Approving Changes)
 
 # Introduction
 
