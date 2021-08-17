@@ -7,15 +7,15 @@ permalink: installation
 
 {::options parse_block_html="true" /}
 
-# Page Sections
+<h2>Page Sections</h2>
 
 <ul>
-
 	<li><a href="#intro">Introduction</a></li>
 	<li><a href="#installover">Installation Overview</a></li>
-	<li><a href="#installovermac">Installation Instructions (macOS)</a></li>
-	<li><a href="#installoverwin">Installation Instructions (Windows)</a></li>
-	<li><a href="#setupover">Setup Overview</a></li>
+	<li><a href="#git">Installing Git</a></li>
+	<li><a href="#rubyjekyll">Installing Ruby, Jekyll, and Related Software</a></li>
+	<li><a href="#setupover">Setting Up: Overview</a></li>
+	<li><a href="#githubaccount">GitHub Account Creation and Configuring Git</a></li>
 	<li><a href="#githubrepos">GitHub Repositories</a></li>
 	<li><a href="#joindlf">Joining the DLFMetadataAssessment GitHub Organization (Optional)</a></li>
 	<li><a href="#nextsteps">Next Steps</a></li>
@@ -23,128 +23,130 @@ permalink: installation
 
 <h2 id="intro">Introduction</h2>
 
-Once you have a basic understanding of Git and GitHub, you will next need to:
+[**Once you have a basic understanding of Git and GitHub**](before-you-begin), you will next need to:
 
 1. Install several pieces of software.
 
-2. Establish a GitHub profile and (optionally) become a contributor to the [DLFMetadataAssessment GitHub organization](https://github.com/DLFMetadataAssessment). 
+2. Establish a GitHub profile and (optionally) become a contributor to the [**DLFMetadataAssessment GitHub organization**](https://github.com/DLFMetadataAssessment). 
 
-3. Establish your necessary repositories.
+3. Establish your GitHub repositories.
 
-We will begin with installation instructions, which have been provided for users with either Windows and macOS operating systems.
+If you have already installed the appropriate software and set up your environments, please navigate to [**the Contributing to the Site**](contributing-to-site) page.
+
+*Note*: Words in all capital letters indicate content that you need to supply.
 
 <h2 id="installover">Installation Overview</h2>
 
-Regardless of the operating system that your computer uses, you will need to install the following:
+Regardless of your computer's operating system, you will need to install the following:
 
 - Git.
 
+- Ruby, as well as relevant associated software (e.g. Bundler). 
+
 - Jekyll.
 
-- Ruby (version 2.4 or higher), as well as relevant associated software (e.g. Bundler). 
+- A source-code editor of your choosing.
 
-- A source-code editor of your choosing, such as [Atom](https://atom.io/) or [Notepad++](https://notepad-plus-plus.org/).
+You will also need to create a GitHub account if you do not already have one. 
 
-Additionally, you will need to create a GitHub account if you have not already done so. 
+<h2 id="git">Installing Git</h2>
 
-<h2 id="installovermac">Installation Instructions (macOS)</h2>
+Before you try to install to install Git, open a command prompt (Windows) or terminal (macOS), type ```git -version``` and hit *enter*. If a Git version number is returned, Git is already installed on your computer (and you can skip this step). However, if a Git version is not returned, you will need to install Git.
 
-**macOS users can select several different options to install necessary software. Very general installation instructions are provided below**:
+Follow these instructions to install Git:
 
-1. Review the various [Git installation options on macOS](https://git-scm.com/download/mac) and select the Git option that works best for you. 
+1. Navigate to the main [Git](https://git-scm.com/) website.
 
-2. Review the instructions on the [Jekyll on macOS page](https://jekyllrb.com/docs/installation/macos/) and install the option that works best for you. **Note that if you're running macOS Big Sur 11.x, Ruby should already be installed on your computer.**
+2. Click on Downloads.
 
-3. Test that Ruby has been installed by opening a terminal window and typing **ruby -v** into the terminal window. If the version number is returned, you have successfully installed Ruby.
+3. Select the appropriate installation method, based on your operating system (e.g. Windows, macOS, Linux).
 
-4. [Install Jekyll and bundler](https://jekyllrb.com/docs/installation/macos/#install-jekyll). 
+4. Open the downloaded file and follow the instructions to install Git.
 
-5. Install a source-code editor of your choice. [Atom](https://atom.io/) and [Visual Studio Code](https://code.visualstudio.com/) are two popular editors.
+5. Test to make sure Git was installed by opening a command prompt (Windows) or terminal (macOS), typing ```git -version``` and hitting enter. If a Git version number is returned, Git is installed on your computer. 
 
-6. [Create a GitHub account](https://github.com/join) if you have not already done so. 
+<h2 id="rubyjekyll">Installing Ruby, Jekyll, and Related Software</h2>
 
-<h2 id="installoverwin">Installation Instructions (Windows)</h2>
+Before you try to install to install Ruby, open a command prompt (Windows) or terminal (macOS), type ```ruby -v``` and hit *enter*.  Next,  type ```jekyll -v``` and hit *enter*. 
 
-**Although not officially supported on Windows computers, Jekyll can still be run on those machines.**
+If you do not get a Ruby version number, followed by a Jekyll version number, you will need to follow the [**Jekyll installation guide**](https://jekyllrb.com/docs/installation/) for your computer's particular operating system.
 
-1. [Download and install the appropriate Git for Windows](https://git-scm.com/download/win), depending on whether your computer is a 32-bit or 64-bit system.
+Finally, you will need to install a source-code editor of your choosing. Some popular editors include:
 
-2. Download and install a [a Ruby+Devkit from RubyInstaller](https://rubyinstaller.org/). During installation, do not change the default options and run ridk install when the option presents itself.
+- [**Atom**](https://atom.io/).
 
-3. Test that Ruby has been installed by opening a comand prompt window and typing **ruby -v** into the command prompt window. If the version number is returned, you have successfully installed Ruby.
+- [**Notepad++**](https://notepad-plus-plus.org/).
 
-4. Open your command prompt and type **gem install jekyll bundler**. 
+- [**Visual Studio Code**](https://code.visualstudio.com/).
 
-5. Test that Ruby has been installed by opening a comand prompt window and typing **jekyll -v** into the command line. If a version number is returned, Jekyll has been installed properly.
+<h2 id="setupover">Setting Up: Overview</h2>
 
-6. Install a source-code editor of your choice. [Atom](https://atom.io/), [Notepad++](https://notepad-plus-plus.org/), and [Visual Studio Code](https://code.visualstudio.com/) are two popular editors.
+Now that you have installed the necessary software, it is time to create your GitHub account and set up the appropriate environments!
 
-7. [Create a GitHub account](https://github.com/join) if you have not already done so. 
+<h2 id="githubaccount">GitHub Account Creation and Configuring Git</h2>
 
-<h2 id="setupover">Set Up Overview</h2>
-
-Now that you have installed the necessary dependencies, it is time to set up the appropriate environments and become a contributor to the DLFMetadataAssessment GitHub organization!
+If you have not already done so, [**create a GitHub account**](https://github.com/join) and make sure that you have [**configured your username and email**](https://docs.github.com/en/get-started/quickstart/set-up-git#setting-up-git). 
 
 <h2 id="githubrepos">GitHub Repositories</h2>
 
+Next, you will need to set up your various GitHub repositories.
+
 When you're contributing changes to a repository like [DLFMetadataAssessment.github.io](https://github.com/DLFMetadataAssessment/DLFMetadataAssessment.github.io), you are actually interacting with several similar, but distinct, repositories:
 
-- The original repository, which is accessible remotely via GitHub. **This is where the "official" or "final" version of the code and documentation lives.** [DLFMetadataAssessment/Sandbox](https://github.com/DLFMetadataAssessment/Sandbox) is an example of a **original repository.**
+- The original repository, which is accessible remotely via GitHub. This is where the *official* version of the code and documentation lives. [**DLFMetadataAssessment/Sandbox**](https://github.com/DLFMetadataAssessment/Sandbox) is an example of a original repository.
 
-- The forked copy of the repository (or fork), which is also accessible remotely via GitHub. **Think of this repository as your personal staging area, from which you can incorporate changes into the official repository.** [kateefly/Sandbox](https://github.com/kateefly/Sandbox) is Kate Flynn's **fork** of the original repository.
+- The forked copy of the original repository (or fork), which is hosted on, and accessible remotely via, GitHub. Think of this repository as your personal staging area, from which you can incorporate your changes into the original repository. [**kateefly/Sandbox**](https://github.com/kateefly/Sandbox) is Kate Flynn's fork of the original Sandbox repository listed above.
 
-- A cloned, or local, copy of the repository, which can be found on anywhere on your computer. **This is your personal workspace, where all the hard work happens!** A copy of the repository on Kate's Desktop is the **local copy** of the repository. 
+- A cloned, or local, copy of the repository, which can be found anywhere on your computer. This is your personal workspace, where all the hard work happens! A copy of either the original or forked repository on Kate's computer is the local copy. 
 
-The citation listed under our References section provides further explanation about the differences between original, forked, and cloned repositories. 
+Because the original repository already exists, you will only need to establish your fork and local copy. 
 
 To establish a fork:
 
 1. Navigate to the appropriate original repository.
 
-2. Select the **fork** option and the appropriate GitHub profile.
+2. Select the fork option and the appropriate GitHub profile.
 
 To establish a local repository:
 
-1. Create an empty folder at a place of your choosing to house your code.
+1. Create an empty folder, at a place of your choosing on your computer, to house your code.
 
-2. Navigate to your fork.
+2. Open a browser and navigate to your fork.
 
-3. Select the **Code ↓** option and select the copy button next to the URL.
+3. Select the *↓ Code* option and select the copy button next to the URL (under *clone with HTTPS*).
 
-4. Open a terminal of your choosing, such as Git Bash (which you just downloaded) or the Windows command prompt.
+4. Open a terminal of your choosing, such as Git Bash (which you just downloaded), macOS terminal, or the Windows command prompt.
 
-5. Using your terminal, navigate to the empty folder you just made.
+5. Using your terminal, navigate to the empty folder you just made. For example, if you are using a Windows or macOS computer, you would type ```cd PATH TO LOCAL REPOSITORY FOLDER``` .
 
-6. Type **git clone**, paste the URL that you just copied into the terminal--so that the command now reads like git clone https://github.com/GentrySteven/Sandbox.git
+6. Type ```git clone```, paste the URL that you just copied into the terminal/prompt, and hit *enter* button to download the code and finish making your local repository. 
 
-7. **Enter** that URL into the prompt to finish making your local repository. 
+7. Check your local repository folder to ensure that the code has been downloaded.
 
-Finally, [configure your repository](https://docs.github.com/en/github/collaborating-with-pull-requests/working-with-forks/configuring-a-remote-for-a-fork):
+Finally, [**configure your repository**](https://docs.github.com/en/github/collaborating-with-pull-requests/working-with-forks/configuring-a-remote-for-a-fork):
 
-1. Open a terminal and navigate to the folder containing your local repository.
+1. Open a terminal/prompt and navigate to the folder that contains your local repository.
 
-2. Navigate to the folder containing the **README file**.
+2. Navigate to the folder containing the README file.
 
-3. Type into the terminal **git remote -v**. If you see any **upstream** repositories, proceed to the [Contributing to the Website](contributing-to-site) and begin making changes! Otherwise, continue to the next step.
+3. Type into the terminal ```git remote -v```. 
 
-4. Type **git remote add upstream ORIGINAL REPOSITORY GITHUB URL**. For example, to establish the Sandbox as an upstream repository, you would type git remote add upstream https://github.com/DLFMetadataAssessment/Sandbox. **Make sure you are 
+If you see one or more upstream (i.e. original) repository URLs in the command line terminal/prompt window, proceed to the [**Contributing to the Website**](contributing-to-site) page and begin making changes! However, if you only see origin repositories (e.g. your fork):
 
-5. **Enter** that command into the prompt.
+1. Type ```git remote add upstream ORIGINAL REPOSITORY URL```. For example, to establish the DLF MAWG Sandbox as an upstream repository, you would type ```git remote add upstream https://github.com/DLFMetadataAssessment/Sandbox```. 
 
-6. Type **git remote -v** into the terminal. If you see any **upstream** repositories.
+2. *Enter* that command into the prompt.
+
+3. Now, type ```git remote -v``` into the terminal. If you see both upstream and origin repositories, you can proceed to the [**Contributing to the Website**](contributing-to-site) page and begin making changes. If you continue to have issues, reach out to a [**maintenance**](maintenance) volunteer.
 
 <h2 id="joindlf">Joining the DLFMetadataAssessment GitHub Organization (Optional)</h2>
 
-Lastly, consider becoming a contributor to the [DLFMetadataAssessment GitHub organization](https://github.com/DLFMetadataAssessment). 
+Optionally, consider becoming a contributor to the [**DLFMetadataAssessment GitHub organization**](https://github.com/DLFMetadataAssessment). 
 
-Joining an organization is not a requirement to contribute changes, but we recommend joining if you will be actively contributing to the organization!
+Joining an organization is not a requirement to contribute changes, but we recommend doing so if you will be actively contributing to the DLF MAWG website!
 
-To join the organization, please reach out the DLF MAWG group members listed in the [Maintenance](maintenance) page.
+To join the organization, please reach out the DLF MAWG group members listed in the [**Maintenance**](maintenance) page.
 
-<h2 id="nextsteps">Next Steps</h2> 
+<h2>References</h2>
 
-Proceed to the [Contributing to the Website](contributing-to-site) and begin making changes!
-
-# References
-
-[The difference between forking and cloning a repository](https://github.community/t/the-difference-between-forking-and-cloning-a-repository/10189).
+[**The difference between forking and cloning a repository**](https://github.community/t/the-difference-between-forking-and-cloning-a-repository/10189).
