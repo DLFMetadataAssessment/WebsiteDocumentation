@@ -7,15 +7,13 @@ permalink: before-you-begin
 
 {::options parse_block_html="true" /}
 
-# Introduction
+<h2>Introduction</h2>
 
-Before you begin contributing changes to the DLF MAWG website and other repositories, we recommend becoming somewhat familiar with command line interfaces, Git, GitHub, Github Pages, and Jekyll.
+Before you begin contributing to the main DLF MAWG website, we recommend becoming familiar with command line interfaces, Git, GitHub, Github Pages, and Jekyll.
 
-In particular, reviewing and more fully understanding [the GitHub flow](https://guides.github.com/introduction/flow/) and jargon--including the various kinds of repositories, pull requests, pushing changes, etc.--will go a long way to ensuring your experience with Git and GitHub is an altogether pleasurable one. 
+Understanding [**the GitHub flow**](https://guides.github.com/introduction/flow/), which this workflow largley uses, will go a long way to ensuring that your experience with this group is a pleasant one! 
 
-To facilitate this learning, the DLF MAWG maintains a skill-building resource that can be found here: [http://dlfmetadataassessment.github.io/Skillbuilding](http://dlfmetadataassessment.github.io/Skillbuilding). 
-
-Topics addressed in this resource include:
+To facilitate this learning, the DLF MAWG maintains a skill-building resource that can be found on the DLF MAWG website's [**Skillbuilding**](http://dlfmetadataassessment.github.io/Skillbuilding) page. Topics addressed in this resource include:
 
 - The command line.
 
@@ -23,24 +21,22 @@ Topics addressed in this resource include:
 
 - GitHub.
 
--  And more!
+- And more!
 
-In addition to these resources, you may find the following resources useful:
+In addition to these resources, you may also find the following resources useful:
 
-- [**Github's Learning Lab**](https://lab.github.com/): This resource provides interactive tutorials on numerous topics--including various programming languages and GitHub.
+- [**Github's Learning Lab**](https://lab.github.com/): This resource provides interactive tutorials on numerous topics.
 
 - [**Learning GitHub**](https://www.linkedin.com/learning/learning-github): This LinkedIn Learning course provides a broad overview of GitHub and Git.
 
 - [**GitHub Documentation**](https://docs.github.com/en): GitHub's official documentation, which was used to create this website.
 
-As you begin to experiment with Git, GitHub, and Jekyll, remember that important things:
+As you begin to experiment with Git, GitHub, and Jekyll, just remember that:
 
-- Changes in GitHub are very easily reversed - so please experiment!
+- Mistakes are very easily reversed - so please feel free to experiment!
 
-- If you have any questions, comments, or concerns, please reach out the DLF MAWG group members listed in the [Maintenance](maintenance) page. They will be happy to answer your questions and help you out!
+- If you have any questions, comments, or concerns, please reach out the DLF MAWG group members listed in the [**Maintenance**](maintenance) page. They will be happy to help you out!
 
-Finally, this documentation is intended to be used to update the DLF MAWG's [Sandbox](https://github.com/DLFMetadataAssessment/Sandbox) and [Production](https://github.com/DLFMetadataAssessment/DLFMetadataAssessment.github.io) websites. However, its core components and workflow can be adapted for any GitHub project.
+<h2>Next Steps</h2>
 
-# Next Steps 
-
-Once you are more familiar with relevant core concepts, move on to the [**Installation**](installation) page.  
+Once you are more familiar these topics, or if you are a GitHub veteran, please navigate to the [**Installation**](installation) page to begin installing necessary software setting up your GitHub environments.  
