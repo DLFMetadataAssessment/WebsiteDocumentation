@@ -19,4 +19,4 @@ Here, you can learn more about:
 
 If you are new to Git, GitHub, and Jekyll, please navigate to the [**what you should know before you begin**](before-you-begin) page.
 
-Looking for the [main DLF MAWG website](http://dlfmetadataassessment.github.io/)?
+Looking for the [**main DLF MAWG website**](http://dlfmetadataassessment.github.io/)?
