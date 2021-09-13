@@ -9,11 +9,11 @@ permalink: before-you-begin
 
 <h2>Introduction</h2>
 
-Before you begin contributing to the main DLF MAWG website, we recommend becoming familiar with command line interfaces, Git, GitHub, Github Pages, and Jekyll.
+Before you begin contributing to DLF MAWG's sites, we recommend becoming familiar with command line interfaces, Git, GitHub, Github Pages, and Jekyll.
 
 Understanding [**the GitHub flow**](https://guides.github.com/introduction/flow/), which this workflow largley uses, will go a long way to ensuring that your experience with this group is a pleasant one! 
 
-To facilitate this learning, the DLF MAWG maintains a skill-building resource that can be found on the DLF MAWG website's [Skillbuilding](http://dlfmetadataassessment.github.io/Skillbuilding) page. Topics addressed in this resource include:
+To facilitate this learning, the DLF MAWG maintains a skill-building resource that can be found on the DLF MAWG website's [**Skillbuilding**](http://dlfmetadataassessment.github.io/Skillbuilding) page. Topics addressed in this resource include:
 
 - The command line.
 
@@ -39,4 +39,4 @@ As you begin to experiment with Git, GitHub, and Jekyll, just remember that:
 
 <h2>Next Steps</h2>
 
-Once you are more familiar these topics, or if you are a GitHub veteran, please navigate to the [**Installation**](installation) page to begin installing necessary software setting up your GitHub environments.  
+Once you are more familiar these topics, or if you are a GitHub veteran, please navigate to the [**Installation**](installation) page to begin installing necessary software and setting up your GitHub environments.  

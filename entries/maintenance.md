@@ -9,27 +9,41 @@ permalink: maintenance
 
 <h2>Introduction</h2>
 
-This page describes the several maintenance workflows that members of the DLF MAWG website group employ to maintain the DLF MAWG's GitHub repositories, as well as who to contact if you have any questions about the DLF MAWG website group's documentation.
+This page describes the several maintenance workflows that members of the DLF MAWG website group employ to maintain the DLF MAWG's GitHub repositories. It also contains related information that should be useful in maintaining the DLF MAWG's sites.
 
 <h2>Maintenance Team Members: Contact Information (2021-2022)</h2>
 
-If you have questions, comments, or concerns about the documentation on this site, please don't hesitate to contact one or more of the following:
+Maintenance members are responsible for answering questions and resolving issues. If you have questions, comments, or concerns about the documentation on this site, please don't hesitate to contact one of the following:
 
-- NAME (EMAIL ADDRESS). 
+- Kate Flynn (kef@chicagocollections.org). 
 
-- NAME (EMAIL ADDRESS). 
-
-- NAME (EMAIL ADDRESS). 
+- Steven Gentry (gentrysteven0208@gmail.com). 
 
 <h2>Maintenance Workflows</h2>
 
+<h3>Regular Review</h3>
+
+About once a month, DLF MAWG website subgroup members will review the appropriate site(s), update ruby gems, and implement minor corrections or updates.
+
+If the correction or update is significant--in other words, it substantially changes one or more pages--suggest it to a maintenance team member. They will make sure it is discussed during the next DLF MAWG website subgroup meeting.
+
 <h3>Annual Review</h3>
 
-Once a year, starting in July, the DLF MAWG website subgroup will conduct a review of its website to ensure the site is up-to-date in time for DLF Forum in the fall. This work involves reaching out to other subgroups to check that all information about their subgroup is correct, collecting information about any project updates and creating new pages for any new projects.
+Once a year, starting in July, the DLF MAWG website subgroup will conduct a review of its website to ensure the site is up-to-date in time for DLF Forum in the fall. This work involves:
 
-Specifically, this involves:
+- Reaching out to other subgroups to check that all information about their subgroup is correct.
 
-TBD.
+- Collecting information about any project updates.
+
+- Creating new pages for any new projects.
+
+- Reviewing all relevant website pages for content issues (e.g. typographical errors) or access issues (e.g. missing or dead links).
+
+- Updating any READMES as well as cleaning up each repository's branches.
+
+- Resolving any outstanding issues for any relevant repositories. 
+
+- Reviewing and updating our documentation.
 
 <h3>Creating Collections</h3>
 
@@ -43,11 +57,11 @@ To delete branches:
 
 1. Opening a browser and navigating to the appropriate repository.
 
-2. Selecting *branches*.
+2. Selecting ```branches```.
 
-3. Selecting *Stale*.
+3. Selecting ```Stale```.
 
-4. Clicking the trashcan icon next to any branch listed as *merged*.
+4. Clicking the trashcan icon next to any branch listed as ```merged```.
 
 5. Repeat as necessary.
 
