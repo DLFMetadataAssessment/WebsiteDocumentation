@@ -26,9 +26,9 @@ To facilitate contributing to our website, we have provided two similar workflow
 
 - The first workflow primarily avoids the command line, and is envisioned as more appropriate for those who are entirely new to Git and GitHub.
 
-- The second workflow employs more of the command line. *We recommend using the second workflow once you are comfortable with the command line, Git, GitHub, and the GitHub workflow.*
+- The second workflow employs more of the command line. We recommend using the second workflow once you are comfortable with the command line, Git, GitHub, and the GitHub workflow.
 
-*Note*: Words in all capital letters indicate content that you need to supply.
+*Note*: Words in all capital letters indicate content that you will need to supply.
 
 <h2 id="workflowhigh">High Level Workflow</h2>
 
@@ -68,7 +68,7 @@ Once you have assigned one or more reviewer(s), they will:
 	
 	- *Note*: If an issue has not yet been created, contact a [**maintenance**](maintenance) team member, who will create an issue for you.
 	
-	- *Note*: Review this video from Kate Flynn (from the time the video starts until 4:51) to learn more about how to review an issue: [https://youtu.be/3fqsS2_ahXM?t](https://youtu.be/3fqsS2_ahXM).
+	- *Note*: Review this video from Kate Flynn (from the time the video starts until 4:51) to learn more about how to review issues: [**https://youtu.be/3fqsS2_ahXM?t**](https://youtu.be/3fqsS2_ahXM).
 
 2. Ensure that your fork is in sync with the original repository by:
 
@@ -110,7 +110,7 @@ Once you have assigned one or more reviewer(s), they will:
 	
 	- Running ```bundle exec jekyll serve``` to start Jekyll.
 	
-	- Navigating to the provided *Server Address* (e.g. http://127.0.0.1:4000) and reviewing the change(s) that you made.
+	- Navigating to the provided ```Server Address``` (e.g. http://127.0.0.1:4000) and reviewing the change(s) that you made.
 	
 	- Closing the command line prompt once you are satisfied with the change(s).
 
@@ -120,7 +120,7 @@ Once you have assigned one or more reviewer(s), they will:
 	
 	- Selecting the branch drop-down menu, typing the name of your branch into the search bar, and choosing one of the following:
 		
-		- If you have already created a branch for this change, type that branch name into the search bar and select the branch.
+		- If you have already created a branch for this change, type that branch name into the search bar and select the branch from the list of options.
 		
 		- If you need to create a new branch, type the name of the branch into the search bar and select the ```create branch``` option. Our branch naming convention is *issue#*, followed by a number for that issue number.
 		
@@ -156,7 +156,7 @@ Once you have assigned one or more reviewer(s), they will:
 	
 9. Because no one is supposed to merge their own pull request into the original repository, complete this workflow by:
 
-	- Opening a browser, navigating to the appropriate original repository, and selecting the appropriate pull request.
+	- Opening a browser, navigating to the original repository, and selecting the appropriate pull request.
 	
 	- Selecting ```Reviewers```.
 	
@@ -172,7 +172,7 @@ Once you have assigned one or more reviewer(s), they will:
 	
 	- *Note*: If an issue has not yet been created, contact a [**maintenance**](maintenance) team member, who will create an issue for you.
 	
-	- *Note*: Review this video from Kate Flynn (from the time the video starts until 4:51) to learn more about how to review an issue: [https://youtu.be/3fqsS2_ahXM?t](https://youtu.be/3fqsS2_ahXM).
+	- *Note*: Review this video from Kate Flynn (from the time the video starts until 4:51) to learn more about how to review an issue: [**https://youtu.be/3fqsS2_ahXM?t**](https://youtu.be/3fqsS2_ahXM).
 
 2. Ensure your fork and local copy are in sync with the original repository by:
 
@@ -180,7 +180,7 @@ Once you have assigned one or more reviewer(s), they will:
 	
 	- Typing and entering ```git fetch upstream``` into the command line terminal/prompt (to fetch content from the original repository).
 	
-	- Typing and entering ```git checkout main``` into the command line terminal/prompt (to switch to the default branch).
+	- Typing and entering ```git checkout main``` into the command line interface (to switch to the default branch).
 	
 	- Typing and entering ```git merge BRANCHNAME``` into the command line terminal/prompt, where BRANCHNAME is the name of the branch (e.g. ```upstream/main```).
 	
@@ -202,7 +202,7 @@ Once you have assigned one or more reviewer(s), they will:
 	
 	- Running ```bundle exec jekyll serve``` to start Jekyll.
 	
-	- Navigating to the provided *Server Address* (e.g. http://127.0.0.1:4000) and reviewing the change(s) that you made.
+	- Navigating to the provided ```Server Address```  (e.g. http://127.0.0.1:4000) and reviewing the change(s) that you made.
 
 5. Once you're ready to push the changes to your fork, create a branch by:
 
@@ -214,7 +214,7 @@ Once you have assigned one or more reviewer(s), they will:
 		
 6. Commit the changes to your branch by:
 
-	- Navigating to your command line terminal/prompt.
+	- Navigating to your command line interface.
 
 	- Typing and entering ```git add``` and the file path(s) of the files that you changed. You can either add individual files or add all changed files. To do the latter, simply type  ```git add .```
 	
@@ -271,10 +271,10 @@ However, it's general best practice to review the changes in a pull request befo
 	- Typing and entering ```git remote add NICKNAME FORKURL```, where NICKNAME is a nickname for the repository's that you will create and FORKURL is the URL that you just copied. This will add the submitter's forked repository and will let you switch to these branches. 
 	
 	- Typing and entering ```git checkout NICKNAME/BRANCHNAME``` to switch to the branch on the remote repository that you will need to review. 
-		
+			
 	- Pulling the changes from the fork.
 	
-	- Runing Jekyll and review changes!
+	- Runing Jekyll and reviewing the changes!
 		
 4. Once satisfied that this change is sufficient, approve the pull request by:
 
@@ -290,6 +290,6 @@ For other, maintenance-related workflows, consult our [**maintenance**](maintena
 
 <h2>References</h2>
 
-[The official GitHub Documentation website](https://docs.github.com/en).
+[**The official GitHub Documentation website**](https://docs.github.com/en).
 
 Kate Flynn's original contribution instructions.

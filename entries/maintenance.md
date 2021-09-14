@@ -51,11 +51,11 @@ TBD.
 
 <h3>Deleting Branches</h3>
 
-During the annual review process, DLF MAWG website subgroup members will need to delete branches, particularly merged and [stale branches](https://docs.github.com/en/github/administering-a-repository/managing-branches-in-your-repository/viewing-branches-in-your-repository).
+During the annual review process, DLF MAWG website subgroup members will need to delete branches, particularly merged and [**stale branches**](https://docs.github.com/en/github/administering-a-repository/managing-branches-in-your-repository/viewing-branches-in-your-repository).
 
 To delete branches:
 
-1. Opening a browser and navigating to the appropriate repository.
+1. Open a browser and navigate to the appropriate original or forked repository.
 
 2. Selecting ```branches```.
 
@@ -71,7 +71,7 @@ To delete branches:
 
 Periodically, your Ruby Gems will need to be updated. To do this:
 
-1. Open a command line terminal/prompt of your choosing.
+1. Open a command line interface window.
 
 2. Navigate to where your GemFile is located (e.g. the folder containing your local repository). 
 
