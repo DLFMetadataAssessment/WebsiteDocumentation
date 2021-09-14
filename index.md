@@ -9,11 +9,11 @@ Welcome to the Digital Library Federation Assessment Interest Group, Metadata Wo
  
 Here, you can learn more about:
 
-* [**What you should know before you begin**](before-you-begin).
+* [**What you should know before you begin contributing changes**](before-you-begin).
 
 * [**How to install and set up your working environments**](installation).
 
-* [**How to directly contribute to the main DLF MAWG website**](contributing-to-site).
+* [**How to directly contribute to DLF MAWG sites**](contributing-to-site).
 
 * [**How to maintain the DLF MAWG GitHub repository**](maintenance).
 

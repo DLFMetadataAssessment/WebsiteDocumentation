@@ -3,18 +3,18 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>Repository Maintenance | DLF Metadata Assessment Working Group</title>
+<title>Maintaining the Repository | DLF Metadata Assessment Working Group</title>
 <meta name="generator" content="Jekyll v3.9.0" />
-<meta property="og:title" content="Repository Maintenance" />
+<meta property="og:title" content="Maintaining the Repository" />
 <meta name="author" content="DLF AIG Metadata Working Group" />
 <meta property="og:locale" content="en_US" />
 <link rel="canonical" href="http://localhost:4000/maintenance" />
 <meta property="og:url" content="http://localhost:4000/maintenance" />
 <meta property="og:site_name" content="DLF Metadata Assessment Working Group" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Repository Maintenance" />
+<meta property="twitter:title" content="Maintaining the Repository" />
 <script type="application/ld+json">
-{"@type":"WebPage","headline":"Repository Maintenance","url":"http://localhost:4000/maintenance","author":{"@type":"Person","name":"DLF AIG Metadata Working Group"},"@context":"https://schema.org"}</script>
+{"@type":"WebPage","url":"http://localhost:4000/maintenance","headline":"Maintaining the Repository","author":{"@type":"Person","name":"DLF AIG Metadata Working Group"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css">
 </head>
@@ -30,15 +30,13 @@
 			</svg>
 		  </span>
 		</label>
-		<div>
-			<a href="/"><img class="header-logo" src="/img/dlf-aig.png"/></a>
-		</div>
 		<div class="trigger">
-			<a class="page-link" href="/mawg-doc/before-you-begin">Before You Begin</a>
-			<a class="page-link" href="/mawg-doc/installation">Installation</a>
-			<a class="page-link" href="/mawg-doc/contributing-to-site">Contributing to the Website</a>
-			<a class="page-link" href="/mawg-doc/maintenance">Maintenance</a>
-			<a class="page-link" href="/mawg-doc/glossary">Glossary</a>
+			<a class="page-link" href="/index">Home</a>
+			<a class="page-link" href="/before-you-begin">Before You Begin</a>
+			<a class="page-link" href="/installation">Installation</a>
+			<a class="page-link" href="/contributing-to-site">Contributing Changes</a>
+			<a class="page-link" href="/maintenance">Maintenance</a>
+			<a class="page-link" href="/glossary">Glossary</a>
 		</div>
 	  </nav>
   </div>
@@ -48,16 +46,111 @@
         <article class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Repository Maintenance</h1>
+    <h1 class="post-title">Maintaining the Repository</h1>
   </header>
 
   <div class="post-content">
     
-<p>-long-term workflows</p>
+<h2>Introduction</h2>
 
-<p>–Stale branches</p>
+<p>This page describes the several maintenance workflows that members of the DLF MAWG website group employ to maintain the DLF MAWG’s GitHub repositories. It also contains related information that should be useful in maintaining the DLF MAWG’s sites.</p>
 
-<p>–annual review and update</p>
+<h2>Maintenance Team Members: Contact Information (2021-2022)</h2>
+
+<p>Maintenance members are responsible for answering questions and resolving issues. If you have questions, comments, or concerns about the documentation on this site, please don’t hesitate to contact one of the following:</p>
+
+<ul>
+  <li>
+    <p>Kate Flynn (kef@chicagocollections.org).</p>
+  </li>
+  <li>
+    <p>Steven Gentry (gentrysteven0208@gmail.com).</p>
+  </li>
+</ul>
+
+<h2>Maintenance Workflows</h2>
+
+<h3>Regular Review</h3>
+
+<p>About once a month, DLF MAWG website subgroup members will review the appropriate site(s), update ruby gems, and implement minor corrections or updates.</p>
+
+<p>If the correction or update is significant–in other words, it substantially changes one or more pages–suggest it to a maintenance team member. They will make sure it is discussed during the next DLF MAWG website subgroup meeting.</p>
+
+<h3>Annual Review</h3>
+
+<p>Once a year, starting in July, the DLF MAWG website subgroup will conduct a review of its website to ensure the site is up-to-date in time for DLF Forum in the fall. This work involves:</p>
+
+<ul>
+  <li>
+    <p>Reaching out to other subgroups to check that all information about their subgroup is correct.</p>
+  </li>
+  <li>
+    <p>Collecting information about any project updates.</p>
+  </li>
+  <li>
+    <p>Creating new pages for any new projects.</p>
+  </li>
+  <li>
+    <p>Reviewing all relevant website pages for content issues (e.g. typographical errors) or access issues (e.g. missing or dead links).</p>
+  </li>
+  <li>
+    <p>Updating any READMES as well as cleaning up each repository’s branches.</p>
+  </li>
+  <li>
+    <p>Resolving any outstanding issues for any relevant repositories.</p>
+  </li>
+  <li>
+    <p>Reviewing and updating our documentation.</p>
+  </li>
+</ul>
+
+<h3>Creating Collections</h3>
+
+<p>TBD.</p>
+
+<h3>Deleting Branches</h3>
+
+<p>During the annual review process, DLF MAWG website subgroup members will need to delete branches, particularly merged and <a href="https://docs.github.com/en/github/administering-a-repository/managing-branches-in-your-repository/viewing-branches-in-your-repository">stale branches</a>.</p>
+
+<p>To delete branches:</p>
+
+<ol>
+  <li>
+    <p>Opening a browser and navigating to the appropriate repository.</p>
+  </li>
+  <li>
+    <p>Selecting <code class="language-plaintext highlighter-rouge">branches</code>.</p>
+  </li>
+  <li>
+    <p>Selecting <code class="language-plaintext highlighter-rouge">Stale</code>.</p>
+  </li>
+  <li>
+    <p>Clicking the trashcan icon next to any branch listed as <code class="language-plaintext highlighter-rouge">merged</code>.</p>
+  </li>
+  <li>
+    <p>Repeat as necessary.</p>
+
+    <ul>
+      <li><em>Note</em>: If a branch is more than one year old, but has not been merged, consult with a maintenance team member to determine if the branch needs to be deleted.</li>
+    </ul>
+  </li>
+</ol>
+
+<h3>Updating Ruby Gems</h3>
+
+<p>Periodically, your Ruby Gems will need to be updated. To do this:</p>
+
+<ol>
+  <li>
+    <p>Open a command line terminal/prompt of your choosing.</p>
+  </li>
+  <li>
+    <p>Navigate to where your GemFile is located (e.g. the folder containing your local repository).</p>
+  </li>
+  <li>
+    <p>Run the <code class="language-plaintext highlighter-rouge">bundle update</code> command.</p>
+  </li>
+</ol>
 
   </div>
 
