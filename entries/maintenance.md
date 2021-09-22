@@ -55,7 +55,7 @@ During the annual review process, DLF MAWG website subgroup members will need to
 
 Delete branches on your fork by:
 
-1. Opening a browser and navigating to the appropriate repository.
+1. Open a browser and navigate to the appropriate original or forked repository.
 
 2. Clicking ```branches```.
 

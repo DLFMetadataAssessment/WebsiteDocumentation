@@ -5,7 +5,7 @@ title: Home
 
 {::options parse_block_html="true" /}
 
-Welcome to the Digital Library Federation Assessment Interest Group Metadata Working Group's (DLF MAWG) documentation website.
+Welcome to the Digital Library Federation Assessment Interest Group, Metadata Working Group's (DLF MAWG) documentation website.
  
 Here, you can learn more about:
 
