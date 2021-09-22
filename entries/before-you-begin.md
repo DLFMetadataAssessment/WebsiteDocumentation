@@ -7,7 +7,7 @@ permalink: before-you-begin
 
 {::options parse_block_html="true" /}
 
-<h2>Introduction</h2>
+<h1>Introduction</h1>
 
 Before you begin contributing to DLF MAWG's sites, we recommend becoming familiar with command line interfaces, Git, GitHub, Github Pages, and Jekyll.
 

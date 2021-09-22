@@ -7,10 +7,11 @@ permalink: installation
 
 {::options parse_block_html="true" /}
 
+<h1 id="top">Introduction</h1>
+
 <h2>Page Sections</h2>
 
 <ul>
-	<li><a href="#intro">Introduction</a></li>
 	<li><a href="#installover">Installation Overview</a></li>
 	<li><a href="#git">Installing Git</a></li>
 	<li><a href="#rubyjekyll">Installing Ruby, Jekyll, and Related Software</a></li>
@@ -20,8 +21,6 @@ permalink: installation
 	<li><a href="#joindlf">Joining the DLFMetadataAssessment GitHub Organization (Optional)</a></li>
 	<li><a href="#nextsteps">Next Steps</a></li>
 </ul>
-
-<h2 id="intro">Introduction</h2>
 
 [**Once you have a basic understanding of Git and GitHub**](before-you-begin), you will need to:
 
@@ -47,6 +46,10 @@ Regardless of your computer's operating system, you will need to install the fol
 
 - A source-code editor of your choosing.
 
+You will also need to create a GitHub account if you do not already have one. 
+
+<a href="#top">Return to top</a>
+
 <h2 id="git">Installing Git</h2>
 
 Before you try to install to install Git, open a command prompt (Windows) or terminal (macOS), type ```git --version``` and hit *enter*. If a Git version number is returned, Git is already installed on your computer (and you can skip this step). However, if a Git version is not returned, you will need to install Git.
@@ -63,6 +66,8 @@ Follow these instructions to install Git:
 
 5. Test to make sure Git was installed by opening a command prompt (Windows) or terminal (macOS), typing ```git --version``` and hitting enter. If a Git version number is returned, Git is installed on your computer. 
 
+<a href="#top">Return to top</a>
+
 <h2 id="rubyjekyll">Installing Ruby, Jekyll, and Related Software</h2>
 
 Before you try to install to install Ruby, open a command prompt (Windows) or terminal (macOS), type ```ruby -v``` and hit ```enter```.  Next,  type ```jekyll -v``` and hit ```enter```. 
@@ -77,13 +82,19 @@ Finally, you will need to install a source-code editor of your choosing. Some po
 
 - [**Visual Studio Code**](https://code.visualstudio.com/).
 
+<a href="#top">Return to top</a>
+
 <h2 id="setupover">Setting Up: Overview</h2>
 
 Now that you have installed the necessary software, it is time to create your GitHub account and set up the appropriate environments!
 
+<a href="#top">Return to top</a>
+
 <h2 id="githubaccount">GitHub Account Creation and Configuring Git</h2>
 
 If you have not already done so, [**create a GitHub account**](https://github.com/join) and make sure that you have configured your [**username**](https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git) and [**email**](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-email-preferences/setting-your-commit-email-address). 
+
+<a href="#top">Return to top</a>
 
 <h2 id="githubrepos">GitHub Repositories</h2>
 
@@ -129,13 +140,15 @@ Finally, make sure [**conect your local repository and fork**](https://docs.gith
 
 3. Type into the terminal ```git remote -v```. 
 
-If you see one or more upstream repository URLs in the command line terminal/prompt window, proceed to the [**Contributing to the Website**](contributing-to-site) page and begin making changes! However, if you only see origin repositories (e.g. your fork):
+If you see one or more upstream repository URLs in your command line interface window, proceed to the [**Contributing to the Website**](contributing-to-site) page and begin making changes! However, if you only see origin repositories (e.g. your fork):
 
 1. Type ```git remote add upstream ORIGINAL REPOSITORY URL```. For example, to establish the DLF MAWG Sandbox as an upstream repository, you would type ```git remote add upstream https://github.com/DLFMetadataAssessment/Sandbox```. 
 
 2. *Enter* that command into the prompt.
 
 3. Now, type ```git remote -v``` into the interface. If you both upstream and origin repositories are returned, you can proceed to the [**Contributing to the Website**](contributing-to-site) page and begin making changes. If you continue to have issues, reach out to a [**maintenance**](maintenance) volunteer.
+
+<a href="#top">Return to top</a>
 
 <h2 id="joindlf">Joining the DLFMetadataAssessment GitHub Organization (Optional)</h2>
 
@@ -144,6 +157,14 @@ Optionally, consider becoming a contributor to the [**DLFMetadataAssessment GitH
 Joining our organization is not a requirement to contribute changes, but we recommend doing so if you will be actively contributing to the DLF MAWG website!
 
 To join the organization, please reach out to a DLF MAWG group members listed in the [**Maintenance**](maintenance) page.
+
+<a href="#top">Return to top</a>
+
+<h2 id="nextsteps">Next Steps</h2>
+
+Once you've set up your environments, you are ready to begin [contributing to a DLF MAWG website](contributing-to-site).
+
+<a href="#top">Return to top</a>
 
 <h2>References</h2>
 
