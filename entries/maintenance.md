@@ -49,29 +49,53 @@ Once a year, starting in July, the DLF MAWG website subgroup will conduct a revi
 
 TBD.
 
-<h3>Deleting Branches</h3>
+<h3>Deleting Branches (Forks)</h3>
 
-During the annual review process, DLF MAWG website subgroup members will need to delete branches, particularly merged and [stale branches](https://docs.github.com/en/github/administering-a-repository/managing-branches-in-your-repository/viewing-branches-in-your-repository).
+During the annual review process, DLF MAWG website subgroup members will need to delete branches, particularly merged and [stale branches](https://docs.github.com/en/github/administering-a-repository/managing-branches-in-your-repository/viewing-branches-in-your-repository) in your fork.
 
-To delete branches:
+Delete branches on your fork by:
 
 1. Opening a browser and navigating to the appropriate repository.
 
-2. Selecting ```branches```.
+2. Clicking ```branches```.
 
-3. Selecting ```Stale```.
+3. Clicking ```Stale```.
 
 4. Clicking the trashcan icon next to any branch listed as ```merged```.
 
 5. Repeat as necessary.
 
 	- *Note*: If a branch is more than one year old, but has not been merged, consult with a maintenance team member to determine if the branch needs to be deleted.
+	
+During this time, maintainers should also delete any stale and outdated local branches and encourage site contributors to do the same. Delete local branches by:
+
+1. Opening a command line interface tool and navigating to the folder containing your local copy.
+
+2. Typing ```git branch``` to bring up a list of local branches.
+
+3. Typing ```git branch -d BRANCHNAME``` to delete that specific branch.
+
+4. Repeating as necessary for each branch. 
+
+<h3>Reverting Pull Requests</h3>
+
+In the event that a pull request is erroneously merged into the default branch, you can revert that pull request by:
+
+1. Navigating to appropriate original repository in GitHub.
+
+2. Clicking ```Pull Requests```.
+
+3. Clicking  ```Closed```.
+
+4. Clicking the appropriate closed pull request.
+
+5. Clicking ```revert``` and approving the new pull request.
 
 <h3>Updating Ruby Gems</h3>
 
 Periodically, your Ruby Gems will need to be updated. To do this:
 
-1. Open a command line terminal/prompt of your choosing.
+1. Open a command line interface tool of your choosing.
 
 2. Navigate to where your GemFile is located (e.g. the folder containing your local repository). 
 

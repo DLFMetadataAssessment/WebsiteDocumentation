@@ -7,10 +7,11 @@ permalink: contributing-to-site
 
 {::options parse_block_html="true" /}
 
+<h1 id="top">Introduction</h1>
+
 <h2>Page Sections</h2>
 
 <ul>
-	<li><a href="#intro">Introduction</a></li>
 	<li><a href="#workflowhigh">High Level Workflow</a></li>
 	<li><a href="#mincomline">Instructions for Contributing Changes (Minimal Command Line)</a></li>
 	<li><a href="#morecomline">Instructions for Contributing Changes (More Command Line)</a></li>
@@ -18,13 +19,11 @@ permalink: contributing-to-site
 	<li><a href="#otherwork">Other Workflows</a></li>
 </ul>
 
-<h2 id="intro">Introduction</h2>
-
 [**Now that you have installed all necessary dependencies, as well as configured your repositories**](installation), you are ready to begin contributing changes!
 
 To facilitate contributing to our website, we have provided two similar workflows:
 
-- The first workflow primarily avoids the command line, and is envisioned as more appropriate for those who are entirely new to Git and GitHub.
+- The first workflow primarily avoids using the command line, and is envisioned as more appropriate for those who are entirely new to Git and GitHub.
 
 - The second workflow employs more of the command line. *We recommend using the second workflow once you are comfortable with the command line, Git, GitHub, and the GitHub workflow.*
 
@@ -68,11 +67,11 @@ Once you have assigned one or more reviewer(s), they will:
 	
 	- *Note*: If an issue has not yet been created, contact a [**maintenance**](maintenance) team member, who will create an issue for you.
 	
-	- *Note*: Review this video from Kate Flynn (from the time the video starts until 4:51) to learn more about how to review an issue: [https://youtu.be/3fqsS2_ahXM?t](https://youtu.be/3fqsS2_ahXM).
+	- *Note*: Review [**this video from Kate Flynn**](https://youtu.be/3fqsS2_ahXM) (from the time the video starts until 4:51) to learn more about how to review an issue.
 
 2. Ensure that your fork is in sync with the original repository by:
 
-	- Opening your command line interface and navigating to your fork.
+	- Opening a command line tool and navigating to your fork.
 	
 	- Selecting the default branch.
 	
@@ -84,7 +83,7 @@ Once you have assigned one or more reviewer(s), they will:
 	
 3. Ensure your local repository is in sync with your fork by:
 
-	- Opening a command line terminal/prompt.
+	- Opening a command line interface tool.
 	
 	- Navigating into the folder on your computer containing your local repository
 
@@ -106,13 +105,13 @@ Once you have assigned one or more reviewer(s), they will:
 
 5. Test that the issue has been resolved by:
 	
-	- Opening your command line prompt/terminal, and--if necessary--navigating to the directory containing the README file of your clone.
+	- Opening your command line interface tool, and--if necessary--navigating to the directory containing the README file of your clone.
 	
 	- Running ```bundle exec jekyll serve``` to start Jekyll.
 	
 	- Navigating to the provided *Server Address* (e.g. http://127.0.0.1:4000) and reviewing the change(s) that you made.
 	
-	- Closing the command line prompt once you are satisfied with the change(s).
+	- Closing the command line interface tool once you are satisfied with the change(s).
 
 6. Once you're ready so implement the change, select or create the branch that will house that change by:
 	
@@ -178,13 +177,13 @@ Once you have assigned one or more reviewer(s), they will:
 
 	- Opening your browser and navigating to the folder on your computer containing your project.
 	
-	- Typing and entering ```git fetch upstream``` into the command line terminal/prompt (to fetch content from the original repository).
+	- Typing and entering ```git fetch upstream``` into the command line interface tool (to fetch content from the original repository).
 	
-	- Typing and entering ```git checkout main``` into the command line terminal/prompt (to switch to the default branch).
+	- Typing and entering ```git checkout main``` into the command line interface tool (to switch to the default branch).
 	
-	- Typing and entering ```git merge BRANCHNAME``` into the command line terminal/prompt, where BRANCHNAME is the name of the branch (e.g. ```upstream/main```).
+	- Typing and entering ```git merge BRANCHNAME``` into the command line interface tool, where BRANCHNAME is the name of the branch (e.g. ```upstream/main```).
 	
-	- Typing and entering ```git push origin``` into the command line terminal/prompt to update your fork. Typically the nickname for your fork should be ```origin``` (and will be referred to as such in these instructions), but this could vary. Check your repository's nickname by typing ```git remote -v``` into the command line terminal/prompt.
+	- Typing and entering ```git push origin``` into the command line interface tool to update your fork. Typically the nickname for your fork should be ```origin``` (and will be referred to as such in these instructions), but this could vary. Check your repository's nickname by typing ```git remote -v``` into the command line interface tool.
 		
 	- *Note*: If you encounter a message like ```Your branch is up to date with 'origin/DEFAULT BRANCH NAME,``` then proceed to the next step. 
 	
@@ -198,7 +197,7 @@ Once you have assigned one or more reviewer(s), they will:
 
 4. Test that the issue has been resolved by:
 	
-	- Navigating to your command line prompt/terminal, which should still be opened to your local repository.
+	- Navigating to your command line interface tool, which should still be opened to your local repository.
 	
 	- Running ```bundle exec jekyll serve``` to start Jekyll.
 	
@@ -208,13 +207,13 @@ Once you have assigned one or more reviewer(s), they will:
 
 	- Opening your terminal.
 	
-	- Terminating the server by selecting Ctrl-C and entering ```y``` until the command line prompt/terminal notes the server has closed.
+	- Terminating the server by selecting Ctrl-C and entering ```y``` until the command line interface window notes that the server has closed.
 	
 	- Typing ```git checkout -b BRANCHNAME``` to simultaneously create a new local branch in your local repository and switch to that branch. Our branch naming convention is *issue#*, followed by a number for that issue number.
 		
 6. Commit the changes to your branch by:
 
-	- Navigating to your command line terminal/prompt.
+	- Navigating to your command line interface tool.
 
 	- Typing and entering ```git add``` and the file path(s) of the files that you changed. You can either add individual files or add all changed files. To do the latter, simply type  ```git add .```
 	
@@ -266,7 +265,7 @@ However, it's general best practice to review the changes in a pull request befo
 
 	- Opening a browser of your choice, navigating to the forked directory that you are reviewing, and copying the fork's URL. The URL can be found by clicking the ```Code``` button.
 	
-	- Navigating to the folder containing your local repository into your command line terminal/prompt.
+	- Navigating to the folder containing your local repository in your command line interface tool.
 	
 	- Typing and entering ```git remote add NICKNAME FORKURL```, where NICKNAME is a nickname for the repository's that you will create and FORKURL is the URL that you just copied. This will add the submitter's forked repository and will let you switch to these branches. 
 	
