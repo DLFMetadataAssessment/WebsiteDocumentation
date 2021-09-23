@@ -7,9 +7,7 @@ permalink: contributing-to-site
 
 {::options parse_block_html="true" /}
 
-<h1 id="top">Introduction</h1>
-
-<h2>Page Sections</h2>
+<h2 id="top">Page Sections</h2>
 
 <ul>
 	<li><a href="#workflowhigh">High Level Workflow</a></li>
@@ -19,15 +17,17 @@ permalink: contributing-to-site
 	<li><a href="#otherwork">Other Workflows</a></li>
 </ul>
 
+<h2 >Introduction</h2>
+
 [**Now that you have installed all necessary dependencies, as well as configured your repositories**](installation), you are ready to begin contributing changes!
 
-To facilitate contributing to our website, we have provided two similar workflows:
+To facilitate contributing, we have provided two similar workflows:
 
 - The first workflow primarily avoids using the command line, and is envisioned as more appropriate for those who are entirely new to Git and GitHub.
 
 - The second workflow employs more of the command line. *We recommend using the second workflow once you are comfortable with the command line, Git, GitHub, and the GitHub workflow.*
 
-*Note*: Words in all capital letters indicate content that you need to supply.
+*Note*: Words in all capital letters indicate content that you need to supply when working at the command line.
 
 <h2 id="workflowhigh">High Level Workflow</h2>
 
@@ -59,6 +59,8 @@ Once you have assigned one or more reviewer(s), they will:
 
 3. Or, reach out to the change contributor to resolve the issue(s) before repeating the process outlined in step 2 (if the change(s) is/are not satisfactory).
 
+<a href="#top">Return to top</a>
+
 <h2 id="mincomline">Instructions for Contributing Changes (Minimal Command Line)</h2> 
 
 1. Navigate to the appropriate original repository and review the issue you want to resolve.
@@ -71,9 +73,9 @@ Once you have assigned one or more reviewer(s), they will:
 
 2. Ensure that your fork is in sync with the original repository by:
 
-	- Opening a command line tool and navigating to your fork.
+	- Opening a browser and navigating to your fork.
 	
-	- Selecting the default branch.
+	- Selecting the default branch if it is not already selected. Typically, this branch will be named ```main```.
 	
 	- Selecting ```Fetch Upstream```.
 	
@@ -85,7 +87,7 @@ Once you have assigned one or more reviewer(s), they will:
 
 	- Opening a command line interface tool.
 	
-	- Navigating into the folder on your computer containing your local repository
+	- Navigating into the folder on your computer containing your local repository.
 
 	- Navigating into the folder containing the README file.
 
@@ -111,7 +113,7 @@ Once you have assigned one or more reviewer(s), they will:
 	
 	- Navigating to the provided *Server Address* (e.g. http://127.0.0.1:4000) and reviewing the change(s) that you made.
 	
-	- Closing the command line interface tool once you are satisfied with the change(s).
+	- Terminating the server by selecting Ctrl-C and entering y until the command line interface window notes that the server has closed, if you are satisfied with the change(s).
 
 6. Once you're ready so implement the change, select or create the branch that will house that change by:
 	
@@ -125,7 +127,7 @@ Once you have assigned one or more reviewer(s), they will:
 		
 7. Update the branch by:
 
-	- Opening your browser and navigating to the appropriate folder on the ```Code``` tab of your GitHub fork. For example, if you changed a file that was in the entries sub-folder, make sure you select that sub-folder before proceeding.
+	- Opening your browser and navigating to the appropriate folder on the ```Code``` tab of your GitHub fork. For example, if you changed a file that was in the ```entries``` sub-folder, make sure you select that sub-folder before proceeding.
 	
 	- Selecting ```Add file``` and then ```Upload files```.
 	
@@ -162,6 +164,8 @@ Once you have assigned one or more reviewer(s), they will:
 	- Clicking on the search bar and selecting the name(s) of the reviewer(s) that you want to review this pull request.
 	
 		- *Note*: Typically, someone assigned to [**maintain**](maintenance) the DLF MAWG Website will be the person who will review and either approve or reject the pull request. 
+
+<a href="#top">Return to top</a>
 	
 <h2 id="morecomline">Instructions for Contributing Changes (More Command Line)</h2>
 
@@ -175,7 +179,7 @@ Once you have assigned one or more reviewer(s), they will:
 
 2. Ensure your fork and local copy are in sync with the original repository by:
 
-	- Opening your browser and navigating to the folder on your computer containing your project.
+	- Opening your browser and navigating to the folder on your computer containing your local repository.
 	
 	- Typing and entering ```git fetch upstream``` into the command line interface tool (to fetch content from the original repository).
 	
@@ -205,7 +209,7 @@ Once you have assigned one or more reviewer(s), they will:
 
 5. Once you're ready to push the changes to your fork, create a branch by:
 
-	- Opening your terminal.
+	- Navigating to your command line interface tool, which should still be opened to your local repository.
 	
 	- Terminating the server by selecting Ctrl-C and entering ```y``` until the command line interface window notes that the server has closed.
 	
@@ -249,6 +253,8 @@ Once you have assigned one or more reviewer(s), they will:
 	
 	- Clicking on the search bar and selecting the name(s) of the reviewer(s) that you want to review this pull request. Typically, someone assigned to [**maintain**](maintenance) the DLF MAWG Website will be the person who will review and either approve or reject the pull request. 
 
+<a href="#top">Return to top</a>
+
 <h2 id="revandappro">Reviewing and Approving Changes</h2>
 
 *Note*: A video detailing how to review a pull request from a forked repository is available on [**Youtube**](https://youtu.be/3fqsS2_ahXM).
@@ -283,9 +289,13 @@ However, it's general best practice to review the changes in a pull request befo
 	
 	- Deleting the merged branch.
 
+<a href="#top">Return to top</a>
+
 <h2 id="otherwork">Other Workflows</h2> 
 
 For other, maintenance-related workflows, consult our [**maintenance**](maintenance) page.
+
+<a href="#top">Return to top</a>
 
 <h2>References</h2>
 

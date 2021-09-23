@@ -7,9 +7,7 @@ permalink: installation
 
 {::options parse_block_html="true" /}
 
-<h1 id="top">Introduction</h1>
-
-<h2>Page Sections</h2>
+<h1 id="top">Page Sections</h1>
 
 <ul>
 	<li><a href="#installover">Installation Overview</a></li>
@@ -22,6 +20,8 @@ permalink: installation
 	<li><a href="#nextsteps">Next Steps</a></li>
 </ul>
 
+<h2>Introduction</h2>
+
 [**Once you have a basic understanding of Git and GitHub**](before-you-begin), you will need to:
 
 1. Install several pieces of software.
@@ -32,7 +32,7 @@ permalink: installation
 
 If you have already installed the appropriate software and set up your environments, please navigate to [**the Contribution instructions**](contributing-to-site) page.
 
-*Note*: Words in all capital letters indicate content that you need to supply.
+*Note*: Words in all capital letters indicate content that you need to supply when working at the command line.
 
 <h2 id="installover">Installation Overview</h2>
 
@@ -52,7 +52,7 @@ You will also need to create a GitHub account if you do not already have one.
 
 <h2 id="git">Installing Git</h2>
 
-Before you try to install to install Git, open a command prompt (Windows) or terminal (macOS), type ```git --version``` and hit *enter*. If a Git version number is returned, Git is already installed on your computer (and you can skip this step). However, if a Git version is not returned, you will need to install Git.
+Before you try to install to install Git, open a command prompt (Windows) or terminal (macOS), and type and enter ```git --version```. If a Git version number is returned, Git is already installed on your computer (and you can skip this step). However, if a Git version is not returned, you will need to install Git.
 
 Follow these instructions to install Git:
 
@@ -64,13 +64,13 @@ Follow these instructions to install Git:
 
 4. Open the downloaded file and follow the instructions to install Git.
 
-5. Test to make sure Git was installed by opening a command prompt (Windows) or terminal (macOS), typing ```git --version``` and hitting enter. If a Git version number is returned, Git is installed on your computer. 
+5. Test to make sure Git was installed by opening a command prompt (Windows) or terminal (macOS), and typing and entering ```git --version```. If a Git version number is returned, Git is installed on your computer. 
 
 <a href="#top">Return to top</a>
 
 <h2 id="rubyjekyll">Installing Ruby, Jekyll, and Related Software</h2>
 
-Before you try to install to install Ruby, open a command prompt (Windows) or terminal (macOS), type ```ruby -v``` and hit *enter*.  Next,  type ```jekyll -v``` and hit *enter*. 
+Before you try to install to install Ruby, open a command prompt (Windows) or terminal (macOS), type and enter ```ruby -v```. Next, type and enter ```jekyll -v``` into that same command line interface window. 
 
 If you get a Ruby and Jekyll version number, then both are already installed on your computer (and you can skip this step). However, if you do not get a Ruby version number, followed by a Jekyll version number, you will need to follow the [**Jekyll installation guide**](https://jekyllrb.com/docs/installation/) for your computer's particular operating system.
 
@@ -102,9 +102,9 @@ Next, you will need to set up your various GitHub repositories.
 
 When you're contributing changes to a repository like [**DLFMetadataAssessment.github.io**](https://github.com/DLFMetadataAssessment/DLFMetadataAssessment.github.io), you are actually interacting with several similar, but distinct, repositories:
 
-- The original, or upstream repository that is accessible remotely via GitHub. This is where the *official* version of the code and documentation lives. [**DLFMetadataAssessment/Sandbox**](https://github.com/DLFMetadataAssessment/Sandbox) is an example of a original repository.
+- The original, or upstream, repository that is accessible remotely via GitHub. This is where the *official* version of the code and documentation lives. [**DLFMetadataAssessment/Sandbox**](https://github.com/DLFMetadataAssessment/Sandbox) is an example of a original repository.
 
-- The forked copy of the original repository (or fork), which is hosted on, and accessible remotely via, GitHub. Think of this repository as your personal staging area, from which you can incorporate your changes into the original repository. [**kateefly/Sandbox**](https://github.com/kateefly/Sandbox) is Kate Flynn's fork of the original Sandbox repository listed above.
+- The forked copy of the original repository (or fork), which is accessible remotely via GitHub. Think of this repository as your personal staging area, from which you can incorporate your changes into the original repository. [**kateefly/Sandbox**](https://github.com/kateefly/Sandbox) is Kate Flynn's fork of the original Sandbox repository listed above.
 
 - A cloned, or local, copy of the repository, which can be found anywhere on your computer. This is your personal workspace, where all the hard work happens! A copy of either the original or forked repository on Kate's computer is the local copy. 
 
@@ -118,7 +118,7 @@ To establish a fork:
 
 To establish a local repository:
 
-1. Create an empty folder, at a place of your choosing on your computer. This will house your clone.
+1. Create an empty folder, at a place of your choosing on your computer. This will house your local copy.
 
 2. Open a browser and navigate to your fork.
 
@@ -128,13 +128,13 @@ To establish a local repository:
 
 5. Using your terminal, navigate to the empty folder you just made. For example, if you are using a Windows or macOS computer, you would type ```cd PATH TO LOCAL REPOSITORY FOLDER``` .
 
-6. Type ```git clone```, paste the URL that you just copied into the terminal/prompt, and hit *enter* button. This will download the code to the folder. 
+6. Type ```git clone``` and paste the URL that you just copied into the terminal/prompt. Click enter (or return) to download the code to the folder. 
 
 7. Check your local repository folder to ensure that the code has been downloaded.
 
-Finally, [**configure your repository**](https://docs.github.com/en/github/collaborating-with-pull-requests/working-with-forks/configuring-a-remote-for-a-fork):
+Finally, [**make sure to configure your repository**](https://docs.github.com/en/github/collaborating-with-pull-requests/working-with-forks/configuring-a-remote-for-a-fork):
 
-1. Open a terminal/prompt and navigate to the folder containing your local repository.
+1. Open a command line tool of your choice and and navigate to the folder containing your local repository.
 
 2. Navigate down to the folder containing the README file.
 
@@ -142,11 +142,9 @@ Finally, [**configure your repository**](https://docs.github.com/en/github/colla
 
 If you see one or more upstream repository URLs in your command line interface window, proceed to the [**Contributing to the Website**](contributing-to-site) page and begin making changes! However, if you only see origin repositories (e.g. your fork):
 
-1. Type ```git remote add upstream ORIGINAL REPOSITORY URL```. For example, to establish the DLF MAWG Sandbox as an upstream repository, you would type ```git remote add upstream https://github.com/DLFMetadataAssessment/Sandbox```. 
+1. Type and enter ```git remote add upstream ORIGINAL REPOSITORY URL```. For example, to establish the DLF MAWG Sandbox as an upstream repository, you would type ```git remote add upstream https://github.com/DLFMetadataAssessment/Sandbox```. 
 
-2. *Enter* that command into the prompt.
-
-3. Now, type ```git remote -v``` into the terminal. If you see both upstream and origin repositories, you can proceed to the [**Contributing to the Website**](contributing-to-site) page and begin making changes. If you continue to have issues, reach out to a [**maintenance**](maintenance) volunteer.
+2. Now, type ```git remote -v``` into command line interface window. If you see both upstream and origin repositories, you can proceed to the [**Contributing to the Website**](contributing-to-site) page and begin making changes. If you continue to have issues, reach out to a [**maintenance**](maintenance) volunteer.
 
 <a href="#top">Return to top</a>
 
@@ -162,7 +160,7 @@ To join the organization, please reach out the DLF MAWG group members listed in 
 
 <h2 id="nextsteps">Next Steps</h2>
 
-Once you've set up your environments, you are ready to begin [contributing to a DLF MAWG website](contributing-to-site).
+Once you've set up your environments, you are ready to begin [contributing to a DLF MAWG repository](contributing-to-site).
 
 <a href="#top">Return to top</a>
 

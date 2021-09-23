@@ -15,7 +15,7 @@ Here, you can learn more about:
 
 * [**How to directly contribute to DLF MAWG sites**](contributing-to-site).
 
-* [**How to maintain the DLF MAWG GitHub repository**](maintenance).
+* [**How to maintain the DLF MAWG's GitHub repositories**](maintenance).
 
 If you are new to Git, GitHub, and Jekyll, please navigate to the [**what you should know before you begin**](before-you-begin) page.
 

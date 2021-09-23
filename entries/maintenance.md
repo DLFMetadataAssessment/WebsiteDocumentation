@@ -23,7 +23,7 @@ Maintenance members are responsible for answering questions and resolving issues
 
 <h3>Regular Review</h3>
 
-About once a month, DLF MAWG website subgroup members will review the appropriate site(s), update ruby gems, and implement minor corrections or updates.
+About once a month, DLF MAWG website subgroup members will review the appropriate GitHub repositories, update ruby gems, and implement minor corrections or updates.
 
 If the correction or update is significant--in other words, it substantially changes one or more pages--suggest it to a maintenance team member. They will make sure it is discussed during the next DLF MAWG website subgroup meeting.
 
@@ -69,17 +69,17 @@ Delete branches on your fork by:
 	
 During this time, maintainers should also delete any stale and outdated local branches and encourage site contributors to do the same. Delete local branches by:
 
-1. Opening a command line interface tool and navigating to the folder containing your local copy.
+1. Opening a command line interface tool and navigating to the folder on your computer containing your local copy.
 
 2. Typing ```git branch``` to bring up a list of local branches.
 
-3. Typing ```git branch -d BRANCHNAME``` to delete that specific branch.
+3. Typing ```git branch -d BRANCHNAME``` to delete that the specific BRANCHNAME.
 
 4. Repeating as necessary for each branch. 
 
 <h3>Reverting Pull Requests</h3>
 
-In the event that a pull request is erroneously merged into the default branch, you can revert that pull request by:
+In the event that a pull request is erroneously merged into the default branch, immediately revert that pull request by:
 
 1. Navigating to appropriate original repository in GitHub.
 
