@@ -56,7 +56,7 @@ Before you try to install to install Git, open a command prompt (Windows) or ter
 
 Follow these instructions to install Git:
 
-1. Navigate to the main [Git](https://git-scm.com/) website.
+1. Navigate to the main [**Git**](https://git-scm.com/) website.
 
 2. Click on Downloads.
 
@@ -92,7 +92,7 @@ Now that you have installed the necessary software, it is time to create your Gi
 
 <h2 id="githubaccount">GitHub Account Creation and Configuring Git</h2>
 
-If you have not already done so, [**create a GitHub account**](https://github.com/join) and make sure that you have [**configured your username and email**](https://docs.github.com/en/get-started/quickstart/set-up-git#setting-up-git). 
+If you have not already done so, [**create a GitHub account**](https://github.com/join) and make sure that you have configured your [**username**](https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git) and [**email**](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-email-preferences/setting-your-commit-email-address). 
 
 <a href="#top">Return to top</a>
 
@@ -124,9 +124,9 @@ To establish a local repository:
 
 3. Select the ```↓ Code``` option and select the copy button.
 
-4. Open a terminal of your choosing, such as Git Bash (which you just downloaded), macOS terminal, or the Windows command prompt.
+4. Open a command line interface of your choosing, such as Git Bash (which you just downloaded), macOS terminal, or the Windows command prompt.
 
-5. Using your terminal, navigate to the empty folder you just made. For example, if you are using a Windows or macOS computer, you would type ```cd PATH TO LOCAL REPOSITORY FOLDER``` .
+5. Using your interface, navigate to the empty folder you just made. For example, if you are using a Windows or macOS computer, you would type ```cd PATH TO LOCAL REPOSITORY FOLDER``` .
 
 6. Type ```git clone``` and paste the URL that you just copied into the terminal/prompt. Click enter (or return) to download the code to the folder. 
 
@@ -152,9 +152,9 @@ If you see one or more upstream repository URLs in your command line interface w
 
 Optionally, consider becoming a contributor to the [**DLFMetadataAssessment GitHub organization**](https://github.com/DLFMetadataAssessment). 
 
-Joining an organization is not a requirement to contribute changes, but we recommend doing so if you will be actively contributing to the DLF MAWG website!
+Joining our organization is not a requirement to contribute changes, but we recommend doing so if you will be actively contributing to the DLF MAWG website!
 
-To join the organization, please reach out the DLF MAWG group members listed in the [**Maintenance**](maintenance) page.
+To join the organization, please reach out to a DLF MAWG group members listed in the [**Maintenance**](maintenance) page.
 
 <a href="#top">Return to top</a>
 

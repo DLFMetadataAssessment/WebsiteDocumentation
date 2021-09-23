@@ -23,7 +23,7 @@ To facilitate this learning, the DLF MAWG maintains a skill-building resource th
 
 - And more!
 
-In addition to these resources, you may also find the following resources useful:
+In addition to these resources, you may also find the following useful:
 
 - [**Github's Learning Lab**](https://lab.github.com/): This resource provides interactive tutorials on numerous topics.
 
