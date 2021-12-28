@@ -95,7 +95,7 @@ Once you have assigned one or more reviewer(s), those reviewers will:
 
 	- Typing and entering ```git pull origin``` *and your fork's default branch name* into your command line tool, which will pull and merge the material in your fork's default branch into your local repository.
 		
-	- NOTE: If you encounter a message like **Your branch is up to date with 'origin/DEFAULT BRANCH NAME** in your command line tool when you complete the final part of step 3, then proceed to the next step. 	
+	- NOTE: If you encounter a message like **Your branch is up to date with 'origin default branch name** in your command line tool when you complete the final part of step 3, then proceed to the next step. 	
 	
 4. Fix the issue in your local repository by:
 
@@ -265,7 +265,7 @@ Once you have assigned one or more reviewer(s), those reviewers will:
 
 NOTE: A video detailing how to review a pull request from a forked repository is described in [**this YouTube video**](https://youtu.be/3fqsS2_ahXM).
 
-When opening a pull request, you'll want to first scroll down and see if GitHub can merge the changes automatically. If this is the case, you'll see below the comments an alert like **This branch has no conflicts with the [default] branch.** There will also be a button that will let you merge the pull request automatically in this case. If there are branch conflicts, please reach out to a DLF MAWG group member listed in the [**Maintenance**](maintenance) page to resolve this issue.
+When opening a pull request, you'll want to first scroll down and see if GitHub can merge the changes automatically. If this is the case, you'll see below the comments an alert like **This branch has no conflicts with the default branch.** There will also be a button that will let you merge the pull request automatically in this case. If there are branch conflicts, please reach out to a DLF MAWG group member listed in the [**Maintenance**](maintenance) page to resolve this issue.
 	
 However, it's general best practice to review the changes in a pull request before merging, even if there's nothing wrong. If you're reviewing changes from a fork, here's the steps you'll need to take to review changes:	
 
