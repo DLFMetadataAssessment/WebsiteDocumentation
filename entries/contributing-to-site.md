@@ -7,44 +7,26 @@ permalink: contributing-to-site
 
 {::options parse_block_html="true" /}
 
-<<<<<<< HEAD
+
 <h2>Page Sections</h2>
 
 <ul>
 	<li><a href="#intro">Introduction</a></li>
-	<li><a href="#highlevwork">High Level Workflow</a></li>
-=======
-<h2 id="top">Page Sections</h2>
-
-<ul>
 	<li><a href="#workflowhigh">High Level Workflow</a></li>
->>>>>>> b40d22d3fa2906903477fdd64188e61d95c516f8
 	<li><a href="#mincomline">Instructions for Contributing Changes (Minimal Command Line)</a></li>
 	<li><a href="#morecomline">Instructions for Contributing Changes (More Command Line)</a></li>
 	<li><a href="#revandappro">Reviewing and Approving Changes</a></li>
 	<li><a href="#otherwork">Other Workflows</a></li>
 </ul>
 
-<<<<<<< HEAD
+
 <h2 id="intro">Introduction</h2>
 
-[**Now that you have installed all necessary dependencies, as well as configured your repositories**](installation), you are ready to begin contributing changes to the DLF MAWG website!
-=======
-<h2 >Introduction</h2>
-
 [**Now that you have installed all necessary dependencies, as well as configured your repositories**](installation), you are ready to begin contributing changes!
->>>>>>> b40d22d3fa2906903477fdd64188e61d95c516f8
 
 To facilitate contributing, we have provided two similar workflows:
 
-<<<<<<< HEAD
-- The first workflow primarily avoids the command line, and is envisioned as appropriate for those who are entirely new to Git and GitHub.
-
-- The second workflow employs more of the command line. *We recommend using the second workflow once you are comfortable with the command line, Git, GitHub, and the GitHub workflow.*
-
-*Note*: Words in all capital letters indicate content that you need to supply.
-=======
-- The first workflow primarily avoids using the command line, and is envisioned as more appropriate for those who are entirely new to Git and GitHub.
+- The first workflow primarily avoids using the command line, and is envisioned as more appropriate for those who are fairly new to Git and GitHub.
 
 - The second workflow employs more of the command line. We recommend using the second workflow once you are comfortable with the command line, Git, GitHub, and the GitHub workflow.
 
