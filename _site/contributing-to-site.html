@@ -3,18 +3,18 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>Contributing to the Website | DLF Metadata Assessment Working Group</title>
+<title>Contributing Instructions | DLF Metadata Assessment Working Group</title>
 <meta name="generator" content="Jekyll v3.9.0" />
-<meta property="og:title" content="Contributing to the Website" />
+<meta property="og:title" content="Contributing Instructions" />
 <meta name="author" content="DLF AIG Metadata Working Group" />
 <meta property="og:locale" content="en_US" />
 <link rel="canonical" href="http://localhost:4000/contributing-to-site" />
 <meta property="og:url" content="http://localhost:4000/contributing-to-site" />
 <meta property="og:site_name" content="DLF Metadata Assessment Working Group" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Contributing to the Website" />
+<meta property="twitter:title" content="Contributing Instructions" />
 <script type="application/ld+json">
-{"@type":"WebPage","headline":"Contributing to the Website","url":"http://localhost:4000/contributing-to-site","author":{"@type":"Person","name":"DLF AIG Metadata Working Group"},"@context":"https://schema.org"}</script>
+{"@type":"WebPage","url":"http://localhost:4000/contributing-to-site","headline":"Contributing Instructions","author":{"@type":"Person","name":"DLF AIG Metadata Working Group"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css">
 </head>
@@ -30,15 +30,13 @@
 			</svg>
 		  </span>
 		</label>
-		<div>
-			<a href="/"><img class="header-logo" src="/img/dlf-aig.png"/></a>
-		</div>
 		<div class="trigger">
-			<a class="page-link" href="/mawg-doc/before-you-begin">Before You Begin</a>
-			<a class="page-link" href="/mawg-doc/installation">Installation</a>
-			<a class="page-link" href="/mawg-doc/contributing-to-site">Contributing to the Website</a>
-			<a class="page-link" href="/mawg-doc/maintenance">Maintenance</a>
-			<a class="page-link" href="/mawg-doc/glossary">Glossary</a>
+			<a class="page-link" href="/index">Home</a>
+			<a class="page-link" href="/before-you-begin">Before You Begin</a>
+			<a class="page-link" href="/installation">Installation</a>
+			<a class="page-link" href="/contributing-to-site">Contributing Changes</a>
+			<a class="page-link" href="/maintenance">Maintenance</a>
+			<a class="page-link" href="/glossary">Glossary</a>
 		</div>
 	  </nav>
   </div>
@@ -48,82 +46,123 @@
         <article class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Contributing to the Website</h1>
+    <h1 class="post-title">Contributing Instructions</h1>
   </header>
 
   <div class="post-content">
     
-<h1 id="introduction">Introduction</h1>
+<h2>Page Sections</h2>
 
-<p>Now that you have installed all necessary dependencies as well as configured your repositories, you are ready to begin contributing changes to the DLF website!</p>
+<ul>
+	<li><a href="#intro">Introduction</a></li>
+	<li><a href="#workflowhigh">High Level Workflow</a></li>
+	<li><a href="#mincomline">Instructions for Contributing Changes (Minimal Command Line)</a></li>
+	<li><a href="#morecomline">Instructions for Contributing Changes (More Command Line)</a></li>
+	<li><a href="#revandappro">Reviewing and Approving Changes</a></li>
+	<li><a href="#otherwork">Other Workflows</a></li>
+</ul>
 
-<p>To facilitate contributing to the DLF MetadataAssessment repositories, we have provided two similar workflows:</p>
+<h2 id="intro">Introduction</h2>
+
+<p><a href="installation"><strong>Now that you have installed all necessary dependencies, as well as configured your repositories</strong></a>, you are ready to begin contributing changes!</p>
+
+<p>To facilitate contributing to our website, we have provided two similar workflows:</p>
 
 <ul>
   <li>
-    <p>The first workflow primarily avoids the command line, and is envisioned as appropriate for those entirely new to Git and GitHub.</p>
+    <p>The first workflow primarily avoids the command line, and is envisioned as more appropriate for those who are entirely new to Git and GitHub.</p>
   </li>
   <li>
-    <p>The second workflow employs more of the command line. <strong>We recommend using the second workflow once you become more familiar with Git, GitHub, and the GitHub workflow.</strong></p>
+    <p>The second workflow employs more of the command line. <em>We recommend using the second workflow once you are comfortable with the command line, Git, GitHub, and the GitHub workflow.</em></p>
   </li>
 </ul>
 
-<h1 id="high-level-workflow">High Level Workflow</h1>
+<p><em>Note</em>: Words in all capital letters indicate content that you need to supply.</p>
 
-<p>Regardless of which workflow you use, the general workflow for contributing changes is as follows:</p>
+<h2 id="workflowhigh">High Level Workflow</h2>
 
-<ol>
-  <li>Navigate to the appropriate original repository and review the issue you want to change.</li>
-  <li>Update your fork.</li>
-  <li>Update your local repository.</li>
-  <li>Use a text editor to effect changes.</li>
-  <li>Testing that the issue has been resolved.</li>
-  <li>Create a new branch.</li>
-  <li>Push the changed content into that new branch.</li>
-  <li>Create a pull request to merge the proposed changes into the original repository.</li>
-  <li>Assign reviewers.</li>
-</ol>
-
-<p>Once you have contributed changes, the following workflow will be used to incorporate those changes into the original repository:</p>
-
-<ol>
-  <li>Review the change.</li>
-  <li>Merging the pull request and deleting the branch.</li>
-</ol>
-
-<h1 id="instructions-for-contributing-changes-minimal-command-line">Instructions for Contributing Changes (Minimal Command Line)</h1>
+<p>Regardless of which specific workflow you use, the general steps are the same:</p>
 
 <ol>
   <li>
-    <p>Navigate to the appropriate original repository (e.g. the Sandbox) and review the issue you want to resolve.</p>
+    <p>Navigate to the appropriate original repository and review the issue(s) that you want to address.</p>
+  </li>
+  <li>
+    <p>Update your fork.</p>
+  </li>
+  <li>
+    <p>Update your local repository.</p>
+  </li>
+  <li>
+    <p>Use a text editor to make changes in your clone.</p>
+  </li>
+  <li>
+    <p>Test your clone to ensure that you have resolved the the issue(s).</p>
+  </li>
+  <li>
+    <p>Create a new branch to house your change.</p>
+  </li>
+  <li>
+    <p>Push the branch to your fork.</p>
+  </li>
+  <li>
+    <p>Create a pull request to merge the branch into the original repository.</p>
+  </li>
+  <li>
+    <p>Assign reviewers to review your pull request.</p>
+  </li>
+</ol>
+
+<p>Once you have assigned one or more reviewer(s), they will:</p>
+
+<ol>
+  <li>
+    <p>Review the change.</p>
+  </li>
+  <li>
+    <p>Merge the pull request and delete the branch (if the change(s) is/are satisfactory).</p>
+  </li>
+  <li>
+    <p>Or, reach out to the change contributor to resolve the issue(s) before repeating the process outlined in step 2 (if the change(s) is/are not satisfactory).</p>
+  </li>
+</ol>
+
+<h2 id="mincomline">Instructions for Contributing Changes (Minimal Command Line)</h2>
+
+<ol>
+  <li>
+    <p>Navigate to the appropriate original repository and review the issue you want to resolve.</p>
 
     <ul>
       <li>
-        <p><strong>Note</strong>: If you are not assigned to this issue, select <strong>assign yourself</strong> under <strong>Assignees</strong>.</p>
+        <p><em>Note</em>: If you are not assigned to this issue, select <code class="language-plaintext highlighter-rouge">assign yourself</code> under <code class="language-plaintext highlighter-rouge">Assignees</code>.</p>
       </li>
       <li>
-        <p><strong>Note</strong>: Review this video from Kate Flynn (from the time the video starts until 4:51) to learn more about how to review an issue: https://youtu.be/3fqsS2_ahXM?t=114</p>
+        <p><em>Note</em>: If an issue has not yet been created, contact a <a href="maintenance"><strong>maintenance</strong></a> team member, who will create an issue for you.</p>
+      </li>
+      <li>
+        <p><em>Note</em>: Review this video from Kate Flynn (from the time the video starts until 4:51) to learn more about how to review an issue: <a href="https://youtu.be/3fqsS2_ahXM">https://youtu.be/3fqsS2_ahXM?t</a>.</p>
       </li>
     </ul>
   </li>
   <li>
-    <p>Ensure your fork is in sync with the original repository by:</p>
+    <p>Ensure that your fork is in sync with the original repository by:</p>
 
     <ul>
       <li>
-        <p>Navigating to your fork.</p>
+        <p>Opening your command line interface and navigating to your fork.</p>
       </li>
       <li>
-        <p>Selecting the default branch (i.e. <strong>main</strong>).</p>
+        <p>Selecting the default branch.</p>
       </li>
       <li>
-        <p>Selecting <strong>Fetch Upstream</strong>.</p>
+        <p>Selecting <code class="language-plaintext highlighter-rouge">Fetch Upstream</code>.</p>
       </li>
       <li>
-        <p>(Optionally) Select <strong>Compare</strong> and review.</p>
+        <p>(Optionally) Select <code class="language-plaintext highlighter-rouge">Compare</code> and review.</p>
       </li>
       <li>
-        <p>Selecting <strong>Fetch and Merge</strong>.</p>
+        <p>Selecting <code class="language-plaintext highlighter-rouge">Fetch and Merge</code>.</p>
       </li>
     </ul>
   </li>
@@ -132,64 +171,74 @@
 
     <ul>
       <li>
-        <p>Opening a terminal.</p>
+        <p>Opening a command line terminal/prompt.</p>
       </li>
       <li>
-        <p>Navigating to folder on your computer containing your local repository, and further navigate into the folder containing the <strong>README file.</strong></p>
+        <p>Navigating into the folder on your computer containing your local repository</p>
       </li>
       <li>
-        <p>Ensuring you are on the default branch by typing the following into the terminal: <strong>git checkout DEFAULT BRANCH NAME</strong>.</p>
-
-        <ul>
-          <li>The DLF MAWG’s default branch name is <strong>main</strong>.</li>
-        </ul>
+        <p>Navigating into the folder containing the README file.</p>
       </li>
       <li>
-        <p>Typing and entiering <strong>gill pull origin DEFAULT BRANCH NAME</strong>.</p>
+        <p>Typing the following into the terminal: <code class="language-plaintext highlighter-rouge">git checkout DEFAULT BRANCH NAME</code> (to make sure you are on the default branch).  The DLF MAWG’s default branch name is typically called <code class="language-plaintext highlighter-rouge">main</code>.</p>
       </li>
       <li>
-        <p>If you encounter a message like <strong>Your branch is up to date with ‘origin/DEFAULT BRANCH NAME’</strong> then proceed to the next step.</p>
-      </li>
-    </ul>
-  </li>
-  <li>
-    <p>Using a text editor of your choice, and using the notes and information in the issue, <strong>fix the issue in your local repository.</strong></p>
-  </li>
-  <li>
-    <p>Testing that the issue has been resolved. <strong>For repositories that use Jekyll</strong>, this will involve:</p>
-
-    <ul>
-      <li>
-        <p>Navigating to your terminal, which should still be opened to local repository.</p>
+        <p>Typing and entering <code class="language-plaintext highlighter-rouge">git pull origin DEFAULT BRANCH NAME</code>, which will pull and merge the material in your fork into your local repository.</p>
       </li>
       <li>
-        <p>Running <strong>bundle exec jekyll serve</strong> to start Jekyll.</p>
-      </li>
-      <li>
-        <p>Navigating to the provided <strong>Server Address</strong> (e.g. http://127.0.0.1:4000) and reviewing the change.</p>
+        <p><em>Note</em>: If you encounter a message like <code class="language-plaintext highlighter-rouge">Your branch is up to date with 'origin/DEFAULT BRANCH NAME</code>, then proceed to the next step.</p>
       </li>
     </ul>
   </li>
   <li>
-    <p>Once you’re ready so implement the change, select or create the branch that will house that change:</p>
+    <p>Fix the issue in your local repository by:</p>
 
     <ul>
       <li>
-        <p>Navigate to your <strong>fork</strong>.</p>
+        <p>Navigating to the folder on your computer containing your local repository.</p>
       </li>
       <li>
-        <p>Select the branch drop-down menu and type the name of your branch into the search bar:</p>
+        <p>Opening the appropriate file(s) using the source code editor of your choice.</p>
+      </li>
+      <li>
+        <p>Making the appropriate change(s).</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Test that the issue has been resolved by:</p>
+
+    <ul>
+      <li>
+        <p>Opening your command line prompt/terminal, and–if necessary–navigating to the directory containing the README file of your clone.</p>
+      </li>
+      <li>
+        <p>Running <code class="language-plaintext highlighter-rouge">bundle exec jekyll serve</code> to start Jekyll.</p>
+      </li>
+      <li>
+        <p>Navigating to the provided <em>Server Address</em> (e.g. http://127.0.0.1:4000) and reviewing the change(s) that you made.</p>
+      </li>
+      <li>
+        <p>Closing the command line prompt once you are satisfied with the change(s).</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Once you’re ready so implement the change, select or create the branch that will house that change by:</p>
+
+    <ul>
+      <li>
+        <p>Opening a browser of your choice and navigating to your fork.</p>
+      </li>
+      <li>
+        <p>Selecting the branch drop-down menu, typing the name of your branch into the search bar, and choosing one of the following:</p>
 
         <ul>
           <li>
-            <p>If you have already created a branch for this change, type that branch name into the search bar and select it.</p>
+            <p>If you have already created a branch for this change, type that branch name into the search bar and select the branch.</p>
           </li>
           <li>
-            <p>If you need to create a new branch, type the name of the branch into the search bar and select the <strong>create branch</strong> option.</p>
-
-            <ul>
-              <li><strong>NOTE</strong>: Our branch naming convention is <strong>issue#</strong> followed by a four character number that represents the issue number. So, for a branch that resolves issue 189, the branch name would be issue#0189.</li>
-            </ul>
+            <p>If you need to create a new branch, type the name of the branch into the search bar and select the <code class="language-plaintext highlighter-rouge">create branch</code> option. Our branch naming convention is <em>issue#</em>, followed by a number for that issue number.</p>
           </li>
         </ul>
       </li>
@@ -200,276 +249,282 @@
 
     <ul>
       <li>
-        <p>Navigating to the <strong>appropriate directory</strong> in the fork. For example, if you changed a file that was in the <strong>entries</strong> sub-folder, make sure you select that sub-folder before proceeding to the next step.</p>
+        <p>Opening your browser and navigating to the appropriate folder on the <code class="language-plaintext highlighter-rouge">Code</code> tab of your GitHub fork. For example, if you changed a file that was in the entries sub-folder, make sure you select that sub-folder before proceeding.</p>
       </li>
       <li>
-        <p>Selecting <strong>Add file</strong> and then <strong>Upload files.</strong></p>
+        <p>Selecting <code class="language-plaintext highlighter-rouge">Add file</code> and then <code class="language-plaintext highlighter-rouge">Upload files</code>.</p>
       </li>
       <li>
-        <p>Dragging and dropping the changed file(s) from your local repository to the <strong>Drag additional files here…</strong> bar.</p>
+        <p>Dragging and dropping the changed file(s) from your local repository to the <code class="language-plaintext highlighter-rouge">Drag additional files here...</code> bar.</p>
       </li>
       <li>
-        <p>Scrolling to the bottom of the page, adding a title to your change (such as <strong>Fixes issue#0189</strong>) and any relevant descriptive information (such as <strong>This also resolves a similar typographical issue in the breadcrumb</strong>).</p>
+        <p>Scrolling to the bottom of the page, adding a title to your change and any relevant descriptive information of the change. For example, a title could be <code class="language-plaintext highlighter-rouge">Fixes issue#0189</code> and the description could be <code class="language-plaintext highlighter-rouge">This resolves a simple typogaphical issue in the breadcrumb</code>.</p>
       </li>
       <li>
-        <p>Selecting <strong>Commit directly to the BRANCH NAME branch</strong>.</p>
+        <p>Selecting the <code class="language-plaintext highlighter-rouge">Commit directly</code> option.</p>
       </li>
     </ul>
   </li>
   <li>
-    <p>Create a pull request to merge the content on the branch in your fork with the original repository:</p>
+    <p>Create a pull request to merge the content on the branch in your fork into the original repository by:</p>
 
     <ul>
       <li>
-        <p>Navigate to the main page of your fork.</p>
+        <p>Opening a browser of your choice and navigating to the main page of your fork.</p>
       </li>
       <li>
-        <p>Select the <strong>Compare &amp; Pull Request</strong> button for the branch you just made.</p>
+        <p>Selecting the <code class="language-plaintext highlighter-rouge">Compare &amp; Pull Request</code> button for the branch you just made.</p>
       </li>
       <li>
-        <p>If not already selected, click <strong>Compare across forks</strong>.</p>
-      </li>
-      <li>
-        <p>Make sure that:</p>
+        <p>Clicking <code class="language-plaintext highlighter-rouge">Compare across forks</code> and making sure that:</p>
 
         <ul>
           <li>
-            <p>The <strong>Base repository</strong> is the original repository (e.g. DLFMetadataAssessment/Sandbox).</p>
+            <p>The <code class="language-plaintext highlighter-rouge">Base repository</code> is the original repository.</p>
           </li>
           <li>
-            <p>The <strong>base</strong> branch is the default branch (e.g. <strong>main</strong>).</p>
+            <p>The <code class="language-plaintext highlighter-rouge">base</code> branch is the default branch of the original repository.</p>
           </li>
           <li>
-            <p>The <strong>Head Repository</strong> is your fork.</p>
+            <p>The <code class="language-plaintext highlighter-rouge">Head Repository</code> is your fork.</p>
           </li>
           <li>
-            <p>The <strong>compare</strong> branch is the branch on your repository is the branch on your fork with the changed files.</p>
+            <p>The <code class="language-plaintext highlighter-rouge">compare</code> branch is the branch on your fork with the changed file(s).</p>
           </li>
         </ul>
       </li>
       <li>
-        <p>Review the title and description of the change and select <strong>Create Pull Request</strong></p>
+        <p>Reviewing and updating the title and description of the change, and selecting <code class="language-plaintext highlighter-rouge">Create Pull Request</code>.</p>
       </li>
     </ul>
   </li>
   <li>
-    <p>Because no one is supposed to merge their own pull request into the original repository, complete this workflow by assigning a reviewer:</p>
+    <p>Because no one is supposed to merge their own pull request into the original repository, complete this workflow by:</p>
 
     <ul>
       <li>
-        <p>Selecting <strong>Reviewers</strong>.</p>
+        <p>Opening a browser, navigating to the appropriate original repository, and selecting the appropriate pull request.</p>
       </li>
       <li>
-        <p>Clicking on the search bar and selecting the name of the member you want to review this change.</p>
+        <p>Selecting <code class="language-plaintext highlighter-rouge">Reviewers</code>.</p>
+      </li>
+      <li>
+        <p>Clicking on the search bar and selecting the name(s) of the reviewer(s) that you want to review this pull request.</p>
+
+        <ul>
+          <li><em>Note</em>: Typically, someone assigned to <a href="maintenance"><strong>maintain</strong></a> the DLF MAWG Website will be the person who will review and either approve or reject the pull request.</li>
+        </ul>
       </li>
     </ul>
   </li>
 </ol>
 
-<h1 id="instructions-for-contributing-changes-more-command-line">Instructions for Contributing Changes (More Command Line)</h1>
+<h2 id="morecomline">Instructions for Contributing Changes (More Command Line)</h2>
 
 <ol>
   <li>
-    <p>Navigate to the appropriate original repository (e.g. the Sandbox) and review the issue you want to resolve.</p>
+    <p>Navigate to the appropriate original repository and review the issue(s) that you want to resolve.</p>
 
     <ul>
       <li>
-        <p><strong>Note</strong>: If you are not assigned to this issue, select <strong>assign yourself</strong> under <strong>Assignees</strong>.</p>
+        <p><em>Note</em>: If you are not assigned to this issue, select <code class="language-plaintext highlighter-rouge">assign yourself</code> under <code class="language-plaintext highlighter-rouge">Assignees</code>.</p>
       </li>
       <li>
-        <p><strong>Note</strong>: Review this video from Kate Flynn (from the time the video starts until 4:51) to learn more about how to review an issue: https://youtu.be/3fqsS2_ahXM?t=114</p>
+        <p><em>Note</em>: If an issue has not yet been created, contact a <a href="maintenance"><strong>maintenance</strong></a> team member, who will create an issue for you.</p>
+      </li>
+      <li>
+        <p><em>Note</em>: Review this video from Kate Flynn (from the time the video starts until 4:51) to learn more about how to review an issue: <a href="https://youtu.be/3fqsS2_ahXM">https://youtu.be/3fqsS2_ahXM?t</a>.</p>
       </li>
     </ul>
   </li>
   <li>
-    <p>Ensure your fork is in sync with the original repository by:</p>
+    <p>Ensure your fork and local copy are in sync with the original repository by:</p>
 
     <ul>
       <li>
-        <p>Navigating to your fork.</p>
+        <p>Opening your browser and navigating to the folder on your computer containing your project.</p>
       </li>
       <li>
-        <p>Selecting the default branch (i.e. <strong>main</strong>).</p>
+        <p>Typing and entering <code class="language-plaintext highlighter-rouge">git fetch upstream</code> into the command line terminal/prompt (to fetch content from the original repository).</p>
       </li>
       <li>
-        <p>Selecting <strong>Fetch Upstream</strong>.</p>
+        <p>Typing and entering <code class="language-plaintext highlighter-rouge">git checkout main</code> into the command line terminal/prompt (to switch to the default branch).</p>
       </li>
       <li>
-        <p>(Optionally) Select <strong>Compare</strong> and review.</p>
+        <p>Typing and entering <code class="language-plaintext highlighter-rouge">git merge BRANCHNAME</code> into the command line terminal/prompt, where BRANCHNAME is the name of the branch (e.g. <code class="language-plaintext highlighter-rouge">upstream/main</code>).</p>
       </li>
       <li>
-        <p>Selecting <strong>Fetch and Merge</strong>.</p>
+        <p>Typing and entering <code class="language-plaintext highlighter-rouge">git push origin</code> into the command line terminal/prompt to update your fork. Typically the nickname for your fork should be <code class="language-plaintext highlighter-rouge">origin</code> (and will be referred to as such in these instructions), but this could vary. Check your repository’s nickname by typing <code class="language-plaintext highlighter-rouge">git remote -v</code> into the command line terminal/prompt.</p>
+      </li>
+      <li>
+        <p><em>Note</em>: If you encounter a message like <code class="language-plaintext highlighter-rouge">Your branch is up to date with 'origin/DEFAULT BRANCH NAME,</code> then proceed to the next step.</p>
       </li>
     </ul>
   </li>
   <li>
-    <p>Ensure your local repository is in sync with your fork by:</p>
+    <p>Fix the issue(s) in your local repository by:</p>
 
     <ul>
       <li>
-        <p>Opening a terminal.</p>
+        <p>Navigating to folder on your computer containing your local repository.</p>
       </li>
       <li>
-        <p>Navigating to folder on your computer containing your local repository, and further navigate into the folder containing the <strong>README file.</strong></p>
+        <p>Opening the appropriate file(s) using the source code editor of your choice.</p>
       </li>
       <li>
-        <p>Ensuring you are on the default branch by typing and entering the following into the terminal: <strong>git checkout DEFAULT BRANCH NAME</strong>.</p>
-
-        <ul>
-          <li>The DLF MAWG’s default branch name is <strong>main</strong>.</li>
-        </ul>
-      </li>
-      <li>
-        <p>Typing and entiering <strong>gill pull origin DEFAULT BRANCH NAME</strong>.</p>
-      </li>
-      <li>
-        <p>If you encounter a message like <strong>Your branch is up to date with ‘origin/DEFAULT BRANCH NAME’</strong> then proceed to the next step.</p>
+        <p>Making the appropriate change(s).</p>
       </li>
     </ul>
   </li>
   <li>
-    <p>Using a text editor of your choice, and using the notes and information in the issue, <strong>fix the issue in your local repository.</strong></p>
-  </li>
-  <li>
-    <p>Testing that the issue has been resolved. <strong>For repositories that use Jekyll</strong>, this will involve:</p>
+    <p>Test that the issue has been resolved by:</p>
 
     <ul>
       <li>
-        <p>Navigating to your terminal, which should still be opened to local repository.</p>
+        <p>Navigating to your command line prompt/terminal, which should still be opened to your local repository.</p>
       </li>
       <li>
-        <p>Typing and entering <strong>bundle exec jekyll serve</strong> to start Jekyll.</p>
+        <p>Running <code class="language-plaintext highlighter-rouge">bundle exec jekyll serve</code> to start Jekyll.</p>
       </li>
       <li>
-        <p>Navigating to the provided <strong>Server Address</strong> (e.g. http://127.0.0.1:4000) and reviewing the change.</p>
+        <p>Navigating to the provided <em>Server Address</em> (e.g. http://127.0.0.1:4000) and reviewing the change(s) that you made.</p>
       </li>
     </ul>
   </li>
   <li>
-    <p>Once you’re ready so implement the change:</p>
+    <p>Once you’re ready to push the changes to your fork, create a branch by:</p>
 
     <ul>
       <li>
         <p>Navigating to the your terminal.</p>
       </li>
       <li>
-        <p>Terminate the server by typing and entering <strong>y</strong> until it closes.</p>
+        <p>Terminating the server by typing and entering <code class="language-plaintext highlighter-rouge">y</code> until the command line prompt/terminal notes the server has closed.</p>
       </li>
       <li>
-        <p>Typing <strong>git checkout -b BRANCHNAME</strong> to create a new local branch in your repository and switch to that branch.</p>
-
-        <ul>
-          <li><strong>NOTE</strong>: Our branch naming convention is <strong>issue#</strong> followed by a four character number that represents the issue number. So, for a branch that resolves issue 189, the branch name would be issue#0189.</li>
-        </ul>
+        <p>Typing <code class="language-plaintext highlighter-rouge">git checkout -b BRANCHNAME</code> to simultaneously create a new local branch in your local repository and switch to that branch. Our branch naming convention is <em>issue#</em>, followed by a number for that issue number.</p>
       </li>
     </ul>
   </li>
   <li>
-    <p>Update the branch by:</p>
+    <p>Commit the changes to your branch by:</p>
 
     <ul>
       <li>
-        <p>Navigating to the your terminal.</p>
+        <p>Navigating to your command line terminal/prompt.</p>
       </li>
       <li>
-        <p>Typing and entering <strong>git add</strong> and the file paths of the files that you changed.</p>
-
-        <ul>
-          <li><strong>NOTE</strong>: You can either add individual files or add all changed files. To add a certain number files, we recommend using the <strong>Copy as path</strong> method to  for each file. Otherwise, simply type and enter <strong>git add .</strong> to add all changed files.</li>
-        </ul>
+        <p>Typing and entering <code class="language-plaintext highlighter-rouge">git add</code> and the file path(s) of the files that you changed. You can either add individual files or add all changed files. To do the latter, simply type  <code class="language-plaintext highlighter-rouge">git add .</code></p>
       </li>
       <li>
-        <p>Typing and entering <strong>git commit -m “fixes issue#NUMBER”,</strong> where NUMBER is the issue number. This will add an explanatory note to your commit.</p>
+        <p>Typing and entering <code class="language-plaintext highlighter-rouge">git commit -m "fixes issue#NUMBER",</code> where NUMBER is the issue number. This will both commit your changes and add an explanatory message to your commit.</p>
       </li>
       <li>
-        <p>Typing and entering <strong>git push –set-upstream origin issue#NUMBER</strong> (use the same branch name as in the previous step). This branch from your local repository should now be on your fork.</p>
+        <p>Typing and entering <code class="language-plaintext highlighter-rouge">git push --set-upstream origin issue#NUMBER</code>, using the same branch name as in the previous step . This branch from your local repository should now be in your fork.</p>
       </li>
       <li>
-        <p>Finally, type and enter <strong>git checkout DEFAULT BRANCH NAME</strong> to return to the default branch.</p>
+        <p>Finally, type and enter <code class="language-plaintext highlighter-rouge">git checkout DEFAULT BRANCHNAME</code> to return to the default branch in your local repository.</p>
       </li>
     </ul>
   </li>
   <li>
-    <p>Create a pull request to merge the content on the branch in your fork with the original repository:</p>
+    <p>Create a pull request to merge the content on the branch in your fork into the original repository by:</p>
 
     <ul>
       <li>
-        <p>Navigate to the main page of your fork.</p>
+        <p>Opening a browser and navigating to the main page of your fork.</p>
       </li>
       <li>
-        <p>Select the <strong>Compare &amp; Pull Request</strong> button for the branch you just made.</p>
+        <p>Selecting the <code class="language-plaintext highlighter-rouge">Compare &amp; Pull Request</code> button for the branch you just made.</p>
       </li>
       <li>
-        <p>If not already selected, click <strong>Compare across forks</strong>.</p>
-      </li>
-      <li>
-        <p>Make sure that:</p>
+        <p>Clicking <code class="language-plaintext highlighter-rouge">Compare across forks</code> and making sure that:</p>
 
         <ul>
           <li>
-            <p>The <strong>Base repository</strong> is the original repository (e.g. DLFMetadataAssessment/Sandbox).</p>
+            <p>The <code class="language-plaintext highlighter-rouge">Base repository</code> is the original repository.</p>
           </li>
           <li>
-            <p>The <strong>base</strong> branch is the default branch (e.g. <strong>main</strong>).</p>
+            <p>The <code class="language-plaintext highlighter-rouge">base</code> branch is the default branch of the original repository.</p>
           </li>
           <li>
-            <p>The <strong>Head Repository</strong> is your fork.</p>
+            <p>The <code class="language-plaintext highlighter-rouge">Head Repository</code> is your fork.</p>
           </li>
           <li>
-            <p>The <strong>compare</strong> branch is the branch on your repository is the branch on your fork with the changed files.</p>
+            <p>The <code class="language-plaintext highlighter-rouge">compare</code> branch is the branch on your fork with the changed file(s).</p>
           </li>
         </ul>
       </li>
       <li>
-        <p>Review the title and description of the change–and add any additional description you feel is necessary–and select <strong>Create Pull Request</strong></p>
+        <p>Reviewing and updating the title and description of the change, and selecting <code class="language-plaintext highlighter-rouge">Create Pull Request</code>.</p>
       </li>
     </ul>
   </li>
   <li>
-    <p>Because no one is supposed to merge their own pull request into the original repository, complete this workflow by assigning a reviewer:</p>
+    <p>Because no one is supposed to merge their own pull request into the original repository, complete this workflow by:</p>
 
     <ul>
       <li>
-        <p>Selecting <strong>Reviewers</strong>.</p>
+        <p>Opening a browser, navigating to the appropriate original repository, and selecting the appropriate pull request.</p>
       </li>
       <li>
-        <p>Clicking on the search bar and selecting the name of the member you want to review this change.</p>
+        <p>Selecting <code class="language-plaintext highlighter-rouge">Reviewers</code>.</p>
+      </li>
+      <li>
+        <p>Clicking on the search bar and selecting the name(s) of the reviewer(s) that you want to review this pull request. Typically, someone assigned to <a href="maintenance"><strong>maintain</strong></a> the DLF MAWG Website will be the person who will review and either approve or reject the pull request.</p>
       </li>
     </ul>
   </li>
 </ol>
 
-<h1 id="reviewing-and-approving-changes">Reviewing and Approving Changes</h1>
+<h2 id="revandappro">Reviewing and Approving Changes</h2>
+
+<p><em>Note</em>: A video detailing how to review a pull request from a forked repository is available on <a href="https://youtu.be/3fqsS2_ahXM"><strong>Youtube</strong></a>.</p>
+
+<p>When opening a pull request, you’ll want to first scroll down and see if GitHub can merge the changes automatically. If this is the case, you’ll see below the comments an alert that <code class="language-plaintext highlighter-rouge">This branch has no conflicts with the master branch.</code> There will also be a button that will let you merge the pull request automatically in this case. If there are branch conflicts, please reach out to a DLF MAWG group member listed in the <a href="maintenance"><strong>Maintenance</strong></a> page to resolve this issue.</p>
+
+<p>However, it’s general best practice to review the changes in a pull request before merging, even if there’s nothing wrong. If you’re reviewing changes from a fork, here’s the steps you’ll need to take to review changes:</p>
 
 <ol>
   <li>
-    <p>Once you have been assigned to a change, review the change by:</p>
+    <p>Review the title and description of the pull request.</p>
+  </li>
+  <li>
+    <p>Review the <code class="language-plaintext highlighter-rouge">Files Changed</code> tab to compare files and confirm that the change was substantially implemented. Consult the GitHub <a href="https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-comparing-branches-in-pull-requests"><strong>About comparing branches in pull requests</strong></a> page if you require further instruction.</p>
+  </li>
+  <li>
+    <p>Confirm that the change will appear satisfactorily on the website by:</p>
 
     <ul>
       <li>
-        <p>Reviewing the title and description of the pull request and comparing it to the original issue, to ensure the actual issue was nominally addressed.</p>
+        <p>Opening a browser of your choice, navigating to the forked directory that you are reviewing, and copying the fork’s URL. The URL can be found by clicking the <code class="language-plaintext highlighter-rouge">Code</code> button.</p>
       </li>
       <li>
-        <p>Reviewing the <strong>Files Changed</strong> tab to confirm that the change was actually implemented.</p>
+        <p>Navigating to the folder containing your local repository into your command line terminal/prompt.</p>
       </li>
       <li>
-        <p>Checking to ensure there are no branch conflicts.</p>
-
-        <ul>
-          <li><strong>Note</strong>: If there are branch conflicts, please reach out the DLF MAWG group members listed in the <a href="maintenance">Maintenance</a> page to resolve this issue.</li>
-        </ul>
+        <p>Typing and entering <code class="language-plaintext highlighter-rouge">git remote add NICKNAME FORKURL</code>, where NICKNAME is a nickname for the repository’s that you will create and FORKURL is the URL that you just copied. This will add the submitter’s forked repository and will let you switch to these branches.</p>
+      </li>
+      <li>
+        <p>Typing and entering <code class="language-plaintext highlighter-rouge">git checkout NICKNAME/BRANCHNAME</code> to switch to the branch on the remote repository that you will need to review.</p>
+      </li>
+      <li>
+        <p>Pulling the changes from the fork.</p>
+      </li>
+      <li>
+        <p>Runing Jekyll and review changes!</p>
       </li>
     </ul>
   </li>
   <li>
-    <p>Once you are satisfied this change is sufficient, merge the branch into the original repository by:</p>
+    <p>Once satisfied that this change is sufficient, approve the pull request by:</p>
 
     <ul>
       <li>
-        <p>Clicking the <strong>Merge Pull Request</strong> drop-down arrow and ensuring that <strong>Create a Merge Commit</strong> is selected.</p>
+        <p>Clicking the <code class="language-plaintext highlighter-rouge">Merge Pull Request</code> drop-down arrow and ensuring that <code class="language-plaintext highlighter-rouge">Create a Merge Commit</code> is selected.</p>
       </li>
       <li>
-        <p>Selecting <strong>Merge pull request</strong>.</p>
+        <p>Selecting <code class="language-plaintext highlighter-rouge">Merge pull request</code>.</p>
       </li>
       <li>
         <p>Deleting the merged branch.</p>
@@ -477,6 +532,16 @@
     </ul>
   </li>
 </ol>
+
+<h2 id="otherwork">Other Workflows</h2>
+
+<p>For other, maintenance-related workflows, consult our <a href="maintenance"><strong>maintenance</strong></a> page.</p>
+
+<h2>References</h2>
+
+<p><a href="https://docs.github.com/en">The official GitHub Documentation website</a>.</p>
+
+<p>Kate Flynn’s original contribution instructions.</p>
 
   </div>
 
