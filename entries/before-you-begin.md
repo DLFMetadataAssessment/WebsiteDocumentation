@@ -7,19 +7,11 @@ permalink: before-you-begin
 
 {::options parse_block_html="true" /}
 
-<<<<<<< HEAD
 <h2>Introduction</h2>
 
 Before you begin contributing to the main DLF MAWG website, we recommend becoming familiar with command line interfaces, Git, GitHub, Github Pages, and Jekyll.
 
 Understanding [**the GitHub flow**](https://guides.github.com/introduction/flow/), which this workflow largley uses, will go a long way to ensuring that your experience with this group is a pleasant one! 
-=======
-<h1>Introduction</h1>
-
-Before you begin contributing to DLF MAWG's sites, we recommend becoming familiar with command line interfaces, Git, GitHub, Github Pages, and Jekyll.
-
-Understanding [**the GitHub flow**](https://guides.github.com/introduction/flow/) will go a long way to ensuring that your experience with this group is a pleasant one! 
->>>>>>> b40d22d3fa2906903477fdd64188e61d95c516f8
 
 To facilitate this learning, the DLF MAWG maintains a skill-building resource that can be found on the DLF MAWG website's [**Skillbuilding**](http://dlfmetadataassessment.github.io/Skillbuilding) page. Topics addressed in this resource include:
 
@@ -31,11 +23,7 @@ To facilitate this learning, the DLF MAWG maintains a skill-building resource th
 
 - And more!
 
-<<<<<<< HEAD
-In addition to these resources, you may also find the following resources useful:
-=======
 In addition to these resources, you may also find the following useful:
->>>>>>> b40d22d3fa2906903477fdd64188e61d95c516f8
 
 - [**Github's Learning Lab**](https://lab.github.com/): This resource provides interactive tutorials on numerous topics.
 
@@ -51,8 +39,4 @@ As you begin to experiment with Git, GitHub, and Jekyll, just remember that:
 
 <h2>Next Steps</h2>
 
-<<<<<<< HEAD
-Once you are more familiar these topics, or if you are a GitHub veteran, please navigate to the [**Installation**](installation) page to begin installing necessary software setting up your GitHub environments.  
-=======
-Once you are more familiar these topics, or if you are a GitHub veteran, please navigate to the [**Installation**](installation) page to begin installing necessary software and setting up your GitHub environments.  
->>>>>>> b40d22d3fa2906903477fdd64188e61d95c516f8
+Once you are more familiar these topics, or if you are a Git and GitHub veteran, please navigate to the [**Installation**](installation) page to begin installing necessary software and setting up your environments.  
