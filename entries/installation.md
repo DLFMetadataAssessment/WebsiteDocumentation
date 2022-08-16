@@ -74,8 +74,6 @@ If you get a Ruby and Jekyll version number, then both are already installed on 
 
 Finally, you will need to install a source-code editor of your choosing. Some popular editors include:
 
-- [**Atom**](https://atom.io/).
-
 - [**Notepad++**](https://notepad-plus-plus.org/).
 
 - [**Visual Studio Code**](https://code.visualstudio.com/).
@@ -163,7 +161,3 @@ To join the organization, please reach out to one of the DLF MAWG group members 
 Once you've set up your environments, you are ready to begin [**contributing to a DLF MAWG repository**](contributing-to-site).
 
 <a href="#top">Return to top</a>
-
-<h2>References</h2>
-
-[**The difference between forking and cloning a repository**](https://github.community/t/the-difference-between-forking-and-cloning-a-repository/10189).
