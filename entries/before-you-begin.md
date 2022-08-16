@@ -13,7 +13,7 @@ Before you begin contributing to DLF MAWG's sites, we recommend becoming familia
 
 Understanding [**the GitHub flow**](https://guides.github.com/introduction/flow/) will go a long way to ensuring that your experience with this group is a pleasant one! 
 
-To facilitate this learning, the DLF MAWG maintains a skill-building resource that can be found on the DLF MAWG website's [**Skillbuilding**](http://dlfmetadataassessment.github.io/Skillbuilding) page. Topics addressed in this resource include:
+To facilitate this learning, the DLF MAWG maintains a skill-building resource that can be found on the DLF MAWG website's [**Skillbuilding**](http://dlfmetadataassessment.github.io/skillbuilding) page. Topics addressed in this resource include:
 
 - The command line.
 
@@ -24,8 +24,6 @@ To facilitate this learning, the DLF MAWG maintains a skill-building resource th
 - And more!
 
 In addition to these resources, you may also find the following resources useful:
-
-- [**Github's Learning Lab**](https://lab.github.com/): This resource provides interactive tutorials on numerous topics.
 
 - [**Learning GitHub**](https://www.linkedin.com/learning/learning-github): This LinkedIn Learning course provides a broad overview of GitHub and Git.
 
